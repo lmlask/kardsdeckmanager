@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">KARDS Deck Manager</string>
+    <string name="deck_manager_button">DECK MANAGER</string>
+    <string name="card_collection_button">CARD COLLECTION</string>
+    <string name="title_activity_deck_viewer">Deck Viewer</string>
+    <string name="tab_text_1">CARDS</string>
+    <string name="tab_text_2">STATS</string>
+    <string name="change_layout">Change layout</string>
+    <string name="filter_cards">Filter cards</string>
+    <string name="edit_deck">Edit deck</string>
+    <string name="delete_deck">Delete deck</string>
+    <string name="information">Information</string>
+    <string name="report_bug">Report bug</string>
+    <string name="change_background">Change background</string>
+    <string name="new_deck">New deck</string>
+    <string name="filter_decks">Filter decks</string>
+    <string name="change_card_layout">Change card layout</string>
+    <string name="units">UNITS:</string>
+    <string name="orders">ORDERS:</string>
+    <string name="cost">COST</string>
+    <string name="attack">ATTACK</string>
+    <string name="unit_ratio">UNIT RATIO</string>
+    <string name="win_rate">WIN RATE</string>
+    <string name="types">TYPES</string>
+    <string name="defense">DEFENSE</string>
+    <string name="settings">Settings</string>
+    <string name="delete_confirmation">Are you sure you want to delete</string>
+    <string name="delete_title">Delete deck</string>
+    <string name="delete">DELETE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="simulate_draw">Simulate draw</string>
+    <string name="update_winrate">Update win rate</string>
+    <string name="win_rate_smol">Win rate</string>
+    <string name="update_winrate_message">Keep victories and defeats updated to calculate your deck\'s win rate.</string>
+    <string name="ok">OK</string>
+    <string name="add_victory">ADD VICTORY</string>
+    <string name="add_defeat">ADD DEFEAT</string>
+    <string name="win_rate_reset">Win rate reset.</string>
+    <string name="added_victory">Added 1 victory to win rate.</string>
+    <string name="added_defeat">Added 1 defeat to win rate.</string>
+    <string name="reset">RESET</string>
+    <string name="reset_title">Reset winrate</string>
+    <string name="reset_confirmation">Are you sure you want to reset this deck\'s win rate?</string>
+    <string name="avg">AVG:</string>
+    <string name="mode">MODE:</string>
+    <string name="units_key">UNITS</string>
+    <string name="orders_key">ORDERS</string>
+    <string name="collection">COLLECTION</string>
+    <string name="deck">DECK</string>
+    <string name="stats">STATS</string>
+    <string name="add_new_deck">Tap + to create a new deck.</string>
+    <string name="change_deck_name">Change deck name</string>
+    <string name="search">Search</string>
+    <string name="enter_deck_name">Enter deck name</string>
+    <string name="namechange_title">Rename deck</string>
+    <string name="deck_name_changed">Deck name changed.</string>
+    <string name="main_nation">MAIN NATION</string>
+    <string name="ally_nation">ALLY NATION</string>
+    <string name="create_new_deck">Create new deck</string>
+    <string name="exit_without_saving">Exit without saving</string>
+    <string name="exit_without_saving_message">If you leave without saving your changes will be lost.</string>
+    <string name="no_deck_name">You need to name your deck!</string>
+    <string name="no_main_country">You must select a main nation.</string>
+    <string name="no_ally">You must select an ally nation.</string>
+    <string name="main_ally_same">Main nation and ally cannot be the same country!</string>
+    <string name="invalid_deck">INVALID DECK</string>
+    <string name="view_deck_context">View</string>
+    <string name="edit_deck_context">Edit</string>
+    <string name="delete_deck_context">Delete</string>
+    <string name="re_draw_selected">RE-DRAW SELECTED</string>
+    <string name="draw_5">DRAW 5</string>
+    <string name="draw_4">DRAW 4</string>
+    <string name="card_limit_reached">This card is</string>
+    <string name="card_limit_reached_2">Card limit reached for this rarity.</string>
+    <string name="import_deck">IMPORT</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="set_sample_decks">Set sample decks</string>
+    <string name="bug_report">Please describe your bug thoroughly. To fix a bug we need to be able to reproduce it.</string>
+    <string name="choose_email_client">Please choose a valid e-mail client</string>
+    <string name="repeated_name">There is already a deck with this name in your collection!</string>
+    <string name="cards_in_deck_changed">Cards in deck changed. Win rate reset.</string>
+    <string name="win_rate_set">Win rate set.</string>
+    <string name="import_deck_title">Import deck</string>
+    <string name="import_deck_message">Paste the deck import code.</string>
+    <string name="import_hint">Deck import code or full description as exported by KARDS</string>
+    <string name="import_name_hint">Deck name</string>
+    <string name="error_reading_code">Error reading the import code.</string>
+    <string name="export_deck">Export deck code</string>
+    <string name="export_deck_description">Export</string>
+    <string name="export_toast">Deck import code copied to clipboard.</string>
+    <string name="description_toast">Deck description copied to clipboard.</string>
+    <string name="short_code">Error on import code. Make sure the last line in your input is the import code.</string>
+    <string name="card_problems">There were errors in the code. Please check the deck.</string>
+    <string name="find_new_decks">FIND NEW DECKS</string>
+    <string name="play_kards">PlayKards</string>
+    <string name="playkards_message">This will take you to the excellent PlayKards website with decks and other relevant KARDS content. Proceed?</string>
+    <string name="home_screen_background_image">Home screen background image</string>
+    <string name="check_blitz">Check if you wish to consider the cost of Blitz cards as main cost + operation cost when plotting deck stats.</string>
+    <string name="blitz_cards_cost_calculation_method">Blitz cards cost calculation method</string>
+    <string name="number_of_columns">The number of columns when viewing cards or decks in grid layout. Use 2 columns for phones, 2 or 3 for tablets.</string>
+    <string name="number_of_columns_in_grid_layout">Number of columns in grid layout</string>
+    <string name="check_export_code">Check if you wish to copy ONLY the import code of decks when exporting from the Deck Manager, not the full deck description.</string>
+    <string name="export_decks_with_import_code_only">Export decks with import code only</string>
+    <string name="preview">PREVIEW</string>
+    <string name="saved_data">Changes saved.</string>
+    <string name="import_code_copied">Import code copied to clipboard.</string>
+    <string name="developed_by">Developed by LuiWolff of Akkad Digital.\nContact me at\nakkad.dev.main@gmail.com</string>
+    <string name="playkards_partnership">This project is a partner of PlayKards. Create and share decks and stay in touch with relevants KARDS news at PlayKards.com, acccessible from the home screen of this app.</string>
+    <string name="kcp_info">The KARDS Deck Manager was created under 1939 Games’ Community Content Policy using assets owned by 1939 Games. 1939 Games supports this project as part of the KARDS Contributor Program.</string>
+    <string name="changelog">Changelog</string>
+    <string name="ally_elite">You cannot add Elite cards from the ally nation.</string>
+    <string name="card_collection_title">Card Collection</string>
+    <string name="deck_manager_title">Deck Manager</string>
+
+    <string name="version" translatable="false">v2.3</string>
+    <string name="changelog_message" translatable="false">
+        All card images and stats updated according to the latest balancing update.
+    </string>
+
+    <string name="thanks">Many thanks to MisterB, Testo and Łukasz Słupski.</string>
+    <string name="instructions" translatable="false">TAP TO ADD TO DECK.\nTAP AND HOLD TO SHOW CARD.</string>
+    <string name="your_email_address">Your e-mail address</string>
+    <string name="detailed_bug_description">Detailed bug description</string>
+
+
+    <string-array name="adapter_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

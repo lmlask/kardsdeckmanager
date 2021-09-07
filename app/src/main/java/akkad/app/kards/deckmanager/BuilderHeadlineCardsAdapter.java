@@ -1,0 +1,159 @@
+package akkad.app.kards.deckmanager;
+
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+
+import static android.content.ContentValues.TAG;
+
+public class BuilderHeadlineCardsAdapter extends RecyclerView.Adapter<BuilderHeadlineCardsAdapter.ViewHolder>{
+
+    private LinkedHashMap<Card, Integer> mCards;
+    private Context mContext;
+
+    public BuilderHeadlineCardsAdapter(LinkedHashMap<Card, Integer> mCards, Context mContext) {
+        this.mCards = mCards;
+        this.mContext = mContext;
+    }
+
+    @NonNull
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.viewer_headline_collection_item, parent, false);
+        return new ViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(ViewHolder holder, final int position) {
+
+        Card c = (new ArrayList<Card>(mCards.keySet())).get(position);
+        int cardNum = (new ArrayList<Integer>(mCards.values())).get(position);
+
+        // Doesn't print opcost if card is an order
+        String opCostDraw, attackDraw, defenseDraw;
+
+        opCostDraw = Integer.toString(c.getOpCost());
+        attackDraw = Integer.toString(c.getAttack());
+        defenseDraw = Integer.toString(c.getDefense());
+
+        // Bind data
+        holder.cardName.setText(c.getName());
+        holder.flavorImage.setImageResource(c.getImage());
+        holder.kreditsImage.setImageResource(c.getKredits());
+        holder.attackImage.setImageResource(c.getAttackImage());
+        holder.defenseImage.setImageResource(R.drawable.defense);
+        holder.attack.setText(attackDraw);
+        holder.defense.setText(defenseDraw);
+        holder.countryStrip.setBackgroundColor(Color.parseColor(c.getCountry()));
+
+        if ((c.getTypeName().equals("order")) || c.getTypeName().equals("countermeasure")) {
+            holder.attackImage.setVisibility(View.INVISIBLE);
+            holder.attack.setVisibility(View.INVISIBLE);
+            holder.defenseImage.setVisibility(View.INVISIBLE);
+            holder.defense.setVisibility(View.INVISIBLE);
+            holder.opCost.setVisibility(View.INVISIBLE);
+            holder.opCostSmall.setVisibility(View.INVISIBLE);
+        } else {
+            holder.attackImage.setVisibility(View.VISIBLE);
+            holder.attack.setVisibility(View.VISIBLE);
+            holder.defenseImage.setVisibility(View.VISIBLE);
+            holder.defense.setVisibility(View.VISIBLE);
+            if (c.getKreditsNumber() >= 10) {
+                holder.opCost.setVisibility(View.INVISIBLE);
+                holder.opCostSmall.setVisibility(View.VISIBLE);
+                holder.opCostSmall.setText(opCostDraw);
+            }
+            else {
+                holder.opCost.setVisibility(View.VISIBLE);
+                holder.opCostSmall.setVisibility(View.INVISIBLE);
+                holder.opCost.setText(opCostDraw);
+            }
+        }
+
+        holder.cardCount.setText(Integer.toString(cardNum));
+
+        holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                Log.d(TAG, "onLongClick: Long-clicked on " + c.getName());
+                Intent intent_card = new Intent(mContext, ShowCard.class);
+                intent_card.putExtra("card_image", c.getImage());
+                mContext.startActivity(intent_card);
+                return true;
+            }
+        });
+
+        holder.parentLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d(TAG, "onClick: SHORT clicked on " + c.getName());
+                if (((DeckBuilderActivity)mContext).removeCardFromDeck(c.getName())) {
+                    mCards.put(c, (mCards.get(c)-1));
+                    int cardNum = (new ArrayList<>(mCards.values())).get(position);
+                    holder.cardCount.setText(Integer.toString(cardNum));
+
+                    if (cardNum==0) {
+                        mCards.remove(c);
+                        notifyDataSetChanged();
+                    }
+                }
+            }
+        });
+    }
+
+    @Override
+    public int getItemCount() {
+        return mCards.size();
+    }
+
+
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+
+        TextView cardName;
+        ImageView flavorImage;
+        ImageView kreditsImage;
+        ImageView attackImage;
+        ImageView defenseImage;
+        TextView defense;
+        TextView attack;
+        TextView opCost;
+        ImageView countryStrip;
+        CardView parentLayout;
+        TextView cardCount;
+        TextView opCostSmall;
+
+        public ViewHolder(@NonNull View itemView) {
+            super(itemView);
+            cardName = itemView.findViewById(R.id.headline_cardname_collection);
+            flavorImage = itemView.findViewById(R.id.headline_flavor_image);
+            kreditsImage = itemView.findViewById(R.id.headline_kredits_image);
+            attackImage = itemView.findViewById(R.id.headline_attack_image);
+            defenseImage = itemView.findViewById(R.id.headline_defense_image);
+            attack = itemView.findViewById(R.id.headline_attack_value);
+            defense = itemView.findViewById(R.id.headline_defense_value);
+            opCost = itemView.findViewById(R.id.headline_opcost_text);
+            countryStrip = itemView.findViewById(R.id.headline_country_strip);
+            parentLayout = itemView.findViewById(R.id.headline_parent_layout);
+            cardCount = itemView.findViewById(R.id.headline_card_count);
+            opCostSmall = itemView.findViewById(R.id.headline_opcost_text_small);
+        }
+    }
+
+    public void swapDataSet(LinkedHashMap<Card, Integer> newData) {
+        this.mCards = newData;
+        notifyDataSetChanged();
+    }
+}

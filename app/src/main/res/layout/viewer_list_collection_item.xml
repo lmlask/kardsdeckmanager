@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:id="@+id/parent_layout"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp">
+
+        <ImageView
+            android:id="@+id/flavor_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:alpha="0.5"
+            android:scaleType="centerCrop"
+            android:scaleX="1.1"
+            android:scaleY="1.1"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/background_2"
+            android:layout_width="134dp"
+            android:layout_height="match_parent"
+            android:background="#70FFFFFF"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/background_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#70FFFFFF"
+            android:layout_toEndOf="@id/background_2"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/country_strip"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:alpha="1"
+            android:background="#FF0000"
+            android:scaleType="centerCrop"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="#BDB594"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            app:cardCornerRadius="4dp"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/card_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#000000"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <ImageView
+            android:id="@+id/attack_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_toEndOf="@id/country_strip"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:rotation="270"
+            android:scaleType="fitXY"
+            android:src="@drawable/attack"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/attack_value"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:fontFamily="sans-serif-black"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="#BDB594"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_alignEnd="@id/attack_image"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:id="@+id/kredits_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/attack_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/k0"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/opcost_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="2"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:visibility="visible"
+            android:layout_alignEnd="@id/kredits_image"
+            android:textColor="#BDB594"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/opcost_text_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="2"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="16dp"
+            android:visibility="invisible"
+            android:textAlignment="center"
+            android:layout_alignEnd="@id/kredits_image"
+            android:textColor="#BDB594"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:id="@+id/type_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:scaleType="centerCrop"
+            android:layout_toEndOf="@id/attack_image"
+            android:layout_below="@id/kredits_image"
+            android:src="@drawable/infantry"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/defense_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:rotation="270"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/kredits_image"
+            android:src="@drawable/defense"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/defense_value"
+            android:layout_width="33dp"
+            android:layout_height="35dp"
+            android:fontFamily="sans-serif-black"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="#BDB594"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_alignStart="@id/defense_image"
+            android:layout_alignBottom="@id/attack_value" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cardname_collection"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="11dp"
+            android:layout_toEndOf="@id/passive_image"
+            android:fontFamily="@font/pt_sans_narrow_bold"
+            android:text="ARGYLLSHIRE HIGHLANDERS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            app:autoSizeTextType="uniform"
+            app:autoSizeStepGranularity="1dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cardname_collection_2"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            app:autoSizeTextType="uniform"
+            app:autoSizeStepGranularity="1dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/passive_image"
+            android:fontFamily="@font/pt_sans_narrow_bold"
+            android:text="ARGYLLSHIRE HIGHLANDERS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:visibility="invisible" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/special_text"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_alignBottom="@id/background_2"
+            android:layout_centerVertical="false"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/passive_image"
+            android:fontFamily="@font/pt_sans_bold_italic"
+            android:text="Blitz, Smokescreen"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            app:autoSizeTextType="uniform"
+            app:autoSizeStepGranularity="1dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/passive_image"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/defense_image"
+            android:src="@drawable/settings_icon"
+            android:tint="#000000"
+            android:tintMode="src_atop"
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,70 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#202020</item>
+        <item name="colorPrimaryDark">#101010</item>
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+        <item name="android:navigationBarColor">#101010</item>
+        <item name="android:windowBackground">#404040</item>
+        <item name="android:colorEdgeEffect">#A0A0A0</item>
+        <item name="editTextStyle">@style/EditText</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="colorPrimary">@android:color/holo_orange_dark</item>
+        <item name="colorPrimaryDark">#101010</item>
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+        <item name="editTextColor">@android:color/holo_orange_dark</item>
+        <item name="editTextStyle">@style/EditText</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent = "Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen_drawable</item>
+    </style>
+
+    <style name="EditText" parent="@android:style/Widget.Holo.Light.EditText">
+        <item name="colorPrimary">@android:color/holo_orange_dark</item>
+        <item name="colorPrimaryDark">#101010</item>
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+        <item name="android:height">40sp</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">#202020</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+        <item name="android:colorEdgeEffect">#505050</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#202020</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+        <item name="android:colorEdgeEffect">#505050</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.MaterialComponents.TabLayout" >
+        <item name="tabTextAppearance">@style/MyCustomTabText</item>
+        <item name="tabSelectedTextColor">@android:color/holo_orange_dark</item>
+    </style>
+
+    <style name="MyCustomTabText" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

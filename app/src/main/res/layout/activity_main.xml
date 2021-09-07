@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fullscreen_content_controls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:longClickable="false"
+        android:minWidth="261dp"
+        android:minHeight="150dp"
+        tools:ignore="UselessParent"
+        tools:layout_conversion_absoluteHeight="155dp"
+        tools:layout_conversion_absoluteWidth="372dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="406dp">
+
+        <ImageView
+            android:id="@+id/bg_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg1"
+            android:tint="#85000000"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:alpha="1.0"
+            android:background="#00202020"
+            android:elevation="5dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/deck_manager_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.85"
+            android:layout_height="wrap_content"
+            android:onClick="openDeckManager"
+            android:text="@string/deck_manager_button"
+            android:textColor="#FFFFFFFF"
+            android:textSize="25sp"
+            app:backgroundTint="@android:color/transparent"
+            app:cornerRadius="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/card_collection_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kards_image_main"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:rippleColor="#33AAAAAA"
+            app:strokeColor="#FFFFFFFF"
+            app:strokeWidth="4dp"/>
+
+        <Button
+            android:id="@+id/card_collection_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.85"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="openCardCollection"
+            android:text="@string/card_collection_button"
+            android:textColor="#FFFFFFFF"
+            android:textSize="25sp"
+            app:backgroundTint="@android:color/transparent"
+            app:cornerRadius="2dp"
+            app:layout_constraintBottom_toTopOf="@id/playkards_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/deck_manager_button"
+            app:rippleColor="#33AAAAAA"
+            app:strokeColor="#FFFFFFFF"
+            app:strokeWidth="4dp"/>
+
+        <Button
+            android:id="@+id/playkards_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="openPlayKards"
+            android:text="@string/find_new_decks"
+            android:textColor="#FFFFFFFF"
+            android:textSize="25sp"
+            app:backgroundTint="@android:color/transparent"
+            app:cornerRadius="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/card_collection_button"
+            app:layout_constraintTop_toBottomOf="@id/card_collection_button"
+            app:layout_constraintWidth_percent="0.85"
+            app:rippleColor="#33AAAAAA"
+            app:strokeColor="#FFFFFFFF"
+            android:layout_marginBottom="32dp"
+            app:strokeWidth="4dp" />
+
+        <ImageView
+            android:id="@+id/kards_image_main"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintDimensionRatio="1:1"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_main"
+            app:srcCompat="@drawable/logo_kards"
+            tools:layout_conversion_absoluteHeight="250dp"
+            tools:layout_conversion_absoluteWidth="300dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/version"
+            android:textSize="14dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

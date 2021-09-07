@@ -1,0 +1,645 @@
+02	AA BARRAGE	1	0	britain	standard	0	0	order	Order	false	Base	
+2L	ADMIRAL HIPPER	5	0	germany	elite	0	0	order	Order	false	Base	
+03	AERIAL RECONNAISSANCE	1	0	britain	limited	0	0	countermeasure	Countermeasure	false	Allegiance	
+gp	AIRDROP	3	0	britain	standard	0	0	order	Order	false	Breakthrough	
+2N	AIRSTRIKE	3	0	germany	special	0	0	countermeasure	Countermeasure	false	Base	
+2O	AIR BLITZ	3	0	germany	limited	0	0	order	Order	false	Base	
+bi	AIR DEFENSE	2	0	usa	elite	0	0	countermeasure	Countermeasure	false	Base	
+0D	AIR POWER	3	0	britain	special	0	0	order	Order	false	TheatersOfWar	
+5t	AIR SUPERIORITY	1	0	japan	limited	0	0	order	Order	false	Base	
+hK	ALLIED RESEARCH EFFORT	1	0	usa	special	0	0	order	Order	false	Breakthrough	
+5u	AMPHIBIOUS ASSAULT	3	0	japan	limited	0	0	order	Order	false	Base	
+5v	ANCIENT EMPIRE	5	0	japan	standard	0	0	order	Order	false	Base	
+2P	ANNIHILATION	7	0	germany	special	0	0	order	Order	false	Base	
+7E	ARCTIC CONVOY	4	0	soviet	limited	0	0	order	Order	false	Base	
+2h	ARMING THE RESISTANCE	4	0	france	special	0	0	order	Order	false	Allegiance	
+7F	FRONTAL ASSAULT	2	0	soviet	standard	0	0	order	Order	false	Base	
+04	ATLANTIC CONVOY	3	0	britain	special	0	0	order	Order	false	Base	
+hJ	AT ALL COST	3	0	soviet	standard	0	0	order	Order	false	Breakthrough	
+bj	AWOKEN GIANT	1	0	usa	standard	0	0	order	Order	false	Base	
+bR	A FEW GOOD MEN	2	0	usa	elite	0	0	order	Order	false	TheatersOfWar	
+7G	BARRAGE	4	0	soviet	standard	0	0	order	Order	false	Allegiance	
+2Q	BISMARCK	10	0	germany	elite	0	0	order	Order	false	Base	
+2R	BLACKOUT	1	0	germany	standard	0	0	order	Order	false	Base	
+5w	BLADE OF THE SAMURAI	6	0	japan	special	0	0	order	Order	false	Base	
+2S	BLITZKRIEG	3	0	germany	limited	0	0	order	Order	false	Base	
+05	BLOCKADE	3	0	britain	limited	0	0	order	Order	false	Base	
+7H	BLOODY SICKLE	1	0	soviet	standard	0	0	order	Order	false	Base	
+7I	BLOOD RED SKY	2	0	soviet	special	0	0	order	Order	false	Base	
+gL	BOLSTER THE RANKS	4	0	usa	limited	0	0	order	Order	false	Breakthrough	
+5x	BOMBING RAID	4	0	japan	elite	0	0	order	Order	false	Base	
+2T	BREAKTHROUGH	3	0	germany	limited	0	0	order	Order	false	Base	
+7J	BURNING SKY	1	0	soviet	standard	0	0	order	Order	false	Base	
+5y	BURNING SUN	3	0	japan	standard	0	0	order	Order	false	Base	
+5z	BURST OF FIRE	1	0	japan	special	0	0	order	Order	false	Base	
+fr	BY THE SWORD	4	0	soviet	special	0	0	order	Order	false	Breakthrough	
+bk	CADET NURSE CORPS	4	0	usa	special	0	0	order	Order	false	Base	
+2i	CALL TO THE COLONIES	4	0	france	limited	0	0	order	Order	false	Allegiance	
+fA	CAMPAIGN TRAIL	4	0	usa	limited	0	0	order	Order	false	Breakthrough	
+2U	CARELESS TALK	1	0	germany	standard	0	0	countermeasure	Countermeasure	false	Base	
+06	CARPET BOMBING	7	0	britain	special	0	0	order	Order	false	Base	
+bl	CARRIER COVER	3	0	usa	limited	0	0	order	Order	false	Allegiance	
+07	CLOSE AIR SUPPORT	1	0	britain	standard	0	0	order	Order	false	Base	
+7K	CLOSE COMBAT	2	0	soviet	special	0	0	order	Order	false	Base	
+5A	CODE OF BUSHIDO	3	0	japan	special	0	0	order	Order	false	Base	
+54	COLONIAL DREAMS	1	0	italy	standard	0	0	order	Order	false	Allegiance	
+2V	COMBINED ARMS	1	0	germany	standard	0	0	order	Order	false	Base	
+7L	JUGGERNAUT	1	0	soviet	standard	0	0	order	Order	false	Allegiance	
+8r	CONFUSION	3	0	soviet	limited	0	0	order	Order	false	Breakthrough	
+8f	CONSCRIPTS	2	0	soviet	standard	0	0	order	Order	false	TheatersOfWar	
+08	CONVOY HX 175	3	0	britain	standard	0	0	order	Order	false	Base	
+gM	COSTLY VICTORY	5	0	japan	limited	0	0	order	Order	false	Breakthrough	
+7M	COUNTER OFFENSIVE	2	0	soviet	limited	0	0	order	Order	false	Allegiance	
+bm	COUNTER STRIKE	3	0	usa	elite	0	0	countermeasure	Countermeasure	false	Allegiance	
+gr	CRITICAL DAMAGE	2	0	britain	standard	0	0	order	Order	false	Breakthrough	
+7N	CRITICAL HIT	4	0	soviet	limited	0	0	order	Order	false	Base	
+09	CUP OF TEA	1	0	britain	standard	0	0	order	Order	false	Base	
+0a	DAYLIGHT BOMBING	4	0	britain	special	0	0	order	Order	false	Base	
+5B	DEADLY DUTY	1	0	japan	standard	0	0	order	Order	false	Base	
+bn	DEATH FROM ABOVE	4	0	usa	limited	0	0	order	Order	false	Base	
+gQ	DEFEND IN DEPTH	3	0	france	limited	0	0	order	Order	false	Breakthrough	
+0E	DELAYING TACTICS	2	0	britain	standard	0	0	order	Order	false	TheatersOfWar	
+55	DESERT PUSH	1	0	italy	standard	0	0	order	Order	false	Allegiance	
+0b	THE DESERT RATS	1	0	britain	limited	0	0	order	Order	false	Base	
+5C	DESPERATE MEASURES	2	0	japan	elite	0	0	order	Order	false	Allegiance	
+bS	DIRECT HIT	1	0	usa	special	0	0	order	Order	false	TheatersOfWar	
+2W	DIVE BOMBING	1	0	germany	standard	0	0	order	Order	false	Base	
+5D	DIVINE WIND	3	0	japan	special	0	0	order	Order	false	Base	
+hD	DOWDING SYSTEM	2	0	britain	standard	0	0	countermeasure	Countermeasure	false	Breakthrough	
+2X	EAGLE CLAWS	3	0	germany	standard	0	0	order	Order	false	Base	
+56	EASTERN FRONT BOUND	3	0	italy	limited	0	0	order	Order	false	Allegiance	
+5E	ELUSIVE FORCE	2	0	japan	special	0	0	order	Order	false	Allegiance	
+bo	EMBARGO	1	0	usa	special	0	0	order	Order	false	Allegiance	
+5F	EMPIRE OF THE SUN	10	0	japan	special	0	0	order	Order	false	Base	
+2Y	ENCIRCLEMENT	3	0	germany	special	0	0	order	Order	false	Base	
+bp	ENEMY SPOTTED	1	0	usa	special	0	0	countermeasure	Countermeasure	false	Base	
+2Z	ENIGMA	4	0	germany	special	0	0	order	Order	false	Base	
+fT	ENTRAPMENT	5	0	germany	standard	0	0	countermeasure	Countermeasure	false	Breakthrough	
+gs	EVASIVE ACTION	0	0	britain	standard	0	0	countermeasure	Countermeasure	false	Breakthrough	
+gK	EXPERIMENTAL FLIGHT	1	0	japan	standard	0	0	order	Order	false	Breakthrough	
+3k	EXPLOIT THE GAP	6	0	germany	elite	0	0	order	Order	false	TheatersOfWar	
+30	FAST HEINZ	1	0	germany	elite	0	0	order	Order	false	Base	
+eB	FEIGNED RETREAT	6	0	japan	elite	0	0	order	Order	false	TheatersOfWar	
+7O	FINAL PUSH	1	0	soviet	standard	0	0	order	Order	false	Base	
+0c	FINEST HOUR	2	0	britain	special	0	0	order	Order	false	Base	
+eF	FOG OF WAR	4	0	britain	special	0	0	order	Order	false	Breakthrough	
+0d	FORTIFICATION	3	0	britain	standard	0	0	order	Order	false	Base	
+2j	FORTIFIED POSITION	2	0	france	standard	0	0	order	Order	false	Allegiance	
+bq	FOR FREEDOM	2	0	usa	special	0	0	order	Order	false	Base	
+5G	FOR GLORY	3	0	japan	limited	0	0	order	Order	false	Allegiance	
+0e	PRECISION BOMBING	4	0	britain	limited	0	0	order	Order	false	Base	
+5H	FOR PROSPERITY	2	0	japan	limited	0	0	order	Order	false	Base	
+5I	FOR THE EMPEROR	1	0	japan	special	0	0	order	Order	false	Base	
+0f	FOR THE KING	2	0	britain	standard	0	0	order	Order	false	Base	
+2k	WESTERN ALLIES	6	0	france	limited	0	0	order	Order	false	Allegiance	
+31	FROM THE DEEP	2	0	germany	elite	0	0	countermeasure	Countermeasure	false	Base	
+7P	FROM THE PEOPLE	3	0	soviet	standard	0	0	order	Order	false	Base	
+fY	GREATER PURPOSE	4	0	japan	standard	0	0	order	Order	false	Breakthrough	
+0g	GROUNDED	5	0	britain	standard	0	0	order	Order	false	Allegiance	
+5K	GUNBOAT RAID	4	0	japan	standard	0	0	order	Order	false	Allegiance	
+br	GUNSHIP MISSION	2	0	usa	standard	0	0	order	Order	false	Base	
+8g	HEROES OF THE SOVIET UNION	2	0	soviet	elite	0	0	order	Order	false	TheatersOfWar	
+bT	HIGH ALTITUDE BOMBING	8	0	usa	elite	0	0	order	Order	false	TheatersOfWar	
+0F	HIS MAJESTY'S CHOSEN	2	0	britain	elite	0	0	order	Order	false	TheatersOfWar	
+0h	HMS ILLUSTRIOUS	3	0	britain	elite	0	0	order	Order	false	Base	
+5M	HOME DEFENSE	8	0	japan	elite	0	0	order	Order	false	Base	
+5N	HONOR	3	0	japan	standard	0	0	order	Order	false	Base	
+5O	HONORABLE DEATH	1	0	japan	special	0	0	order	Order	false	Allegiance	
+5P	IMPERIAL DECREE	0	0	japan	standard	0	0	order	Order	false	Allegiance	
+5Q	IMPERIAL ORDER	1	0	japan	standard	0	0	order	Order	false	Base	
+5R	IMPERIAL STRENGTH	1	0	japan	standard	0	0	order	Order	false	Base	
+bs	INDUSTRIAL MIGHT	2	0	usa	special	0	0	order	Order	false	Base	
+0i	INTERCEPTION	1	0	britain	standard	0	0	countermeasure	Countermeasure	false	Base	
+bt	IN THE NAVY	1	0	usa	special	0	0	countermeasure	Countermeasure	false	Base	
+32	IRON FROM THE NORTH	1	0	germany	standard	0	0	order	Order	false	Base	
+5S	ISOLATION	2	0	japan	elite	0	0	order	Order	false	Allegiance	
+57	HUMAN TORPEDO	5	0	italy	special	0	0	order	Order	false	Allegiance	
+33	JOINT OPERATION	2	0	germany	limited	0	0	order	Order	false	Allegiance	
+34	KRIEGSMARINE	7	0	germany	elite	0	0	order	Order	false	Allegiance	
+bu	LAND OF THE FREE	1	0	usa	standard	0	0	order	Order	false	Base	
+5U	LAST RITES	3	0	japan	elite	0	0	order	Order	false	Base	
+0j	LEND LEASE	7	0	britain	limited	0	0	order	Order	false	Allegiance	
+g5	LESSER OF TWO EVILS	2	0	soviet	limited	0	0	order	Order	false	Breakthrough	
+2l	LIBERATION	6	0	france	special	0	0	order	Order	false	Allegiance	
+5V	LIGHTNING CONQUEST	2	0	japan	elite	0	0	order	Order	false	Base	
+eW	LIGHTNING STRIKE	1	0	germany	limited	0	0	countermeasure	Countermeasure	false	Breakthrough	
+fV	LION FOR A DAY	3	0	italy	special	0	0	order	Order	false	Breakthrough	
+eG	LONG RANGE DESERT GROUP	5	0	britain	elite	0	0	order	Order	false	Breakthrough	
+35	LURKING DANGER	1	0	germany	elite	0	0	order	Order	false	Allegiance	
+bv	MAGIC	1	0	usa	standard	0	0	order	Order	false	Allegiance	
+gW	MARE NOSTRUM	1	0	italy	limited	0	0	order	Order	false	Breakthrough	
+7Q	MASS ATTACK	4	0	soviet	special	0	0	order	Order	false	Base	
+58	MEDITERRANEAN RAID	3	0	italy	standard	0	0	order	Order	false	Allegiance	
+7R	MEN OF STEEL	1	0	soviet	special	0	0	order	Order	false	Allegiance	
+0k	THE MERCHANT NAVY	1	0	britain	standard	0	0	countermeasure	Countermeasure	false	Allegiance	
+g6	MINORITY RECRUITS	10	0	soviet	elite	0	0	order	Order	false	Breakthrough	
+36	MISSING	2	0	germany	special	0	0	countermeasure	Countermeasure	false	Base	
+0l	MI5	3	0	britain	special	0	0	order	Order	false	Base	
+8h	STAND FAST	3	0	soviet	limited	0	0	order	Order	false	TheatersOfWar	
+7S	MOBILE DEFENSE	2	0	soviet	limited	0	0	order	Order	false	Allegiance	
+bw	MOBILIZATION	5	0	usa	special	0	0	order	Order	false	Base	
+0m	MONTY	1	0	britain	elite	0	0	order	Order	false	Base	
+7T	MOTHER RUSSIA	4	0	soviet	special	0	0	order	Order	false	Base	
+7U	MUD	2	0	soviet	special	0	0	order	Order	false	Allegiance	
+0n	NATIONAL FIRE SERVICE	2	0	britain	standard	0	0	countermeasure	Countermeasure	false	Base	
+bx	NAVAL BOMBARDMENT	4	0	usa	limited	0	0	order	Order	false	Base	
+5W	NAVAL OPERATION	3	0	japan	standard	0	0	order	Order	false	Base	
+0o	NAVAL POWER	1	0	britain	standard	0	0	order	Order	false	Base	
+5X	NAVAL SUPPLY RUN	3	0	japan	special	0	0	order	Order	false	Base	
+0p	NAVAL SUPPORT	2	0	britain	standard	0	0	order	Order	false	Base	
+by	NAVAL TASK FORCE	2	0	usa	standard	0	0	order	Order	false	Allegiance	
+0q	NIGHT RAID	5	0	britain	special	0	0	order	Order	false	Base	
+7V	NIGHT WITCHES	1	0	soviet	elite	0	0	order	Order	false	Allegiance	
+7W	NO RETREAT	0	0	soviet	standard	0	0	order	Order	false	Allegiance	
+7X	NO SURRENDER	4	0	soviet	limited	0	0	order	Order	false	Base	
+7Y	ORDER 227	2	0	soviet	special	0	0	order	Order	false	Base	
+65	OUTFLANK	3	0	japan	limited	0	0	order	Order	false	TheatersOfWar	
+fb	OUTMANEUVER	2	0	japan	limited	0	0	order	Order	false	Breakthrough	
+gg	OVERCAST	2	0	usa	standard	0	0	order	Order	false	Breakthrough	
+bz	OVERWHELMING FORCE	0	0	usa	standard	0	0	order	Order	false	Base	
+59	PACT OF STEEL	4	0	italy	special	0	0	order	Order	false	Allegiance	
+7Z	PARADE	3	0	soviet	elite	0	0	order	Order	false	Allegiance	
+80	PATRIOTIC FIRESTORM	1	0	soviet	limited	0	0	order	Order	false	Base	
+81	GREAT PATRIOTIC WAR	6	0	soviet	elite	0	0	order	Order	false	Base	
+bA	PATRIOTIC ZEAL	7	0	usa	special	0	0	order	Order	false	Base	
+bU	PATROL	2	0	usa	limited	0	0	order	Order	false	TheatersOfWar	
+bB	PATTON	1	0	usa	elite	0	0	order	Order	false	Base	
+gJ	PHONEY WAR	5	0	france	special	0	0	order	Order	false	Breakthrough	
+3l	PURSUIT	4	0	germany	standard	0	0	order	Order	false	TheatersOfWar	
+0r	RADAR ALERT	2	0	britain	special	0	0	countermeasure	Countermeasure	false	Base	
+0s	RAID	1	0	britain	special	0	0	order	Order	false	Allegiance	
+gS	RALLY	2	0	germany	limited	0	0	order	Order	false	Breakthrough	
+eX	RAPID ENGAGEMENT	2	0	germany	standard	0	0	order	Order	false	Breakthrough	
+g7	RECKLESS ASSAULT	2	0	soviet	standard	0	0	order	Order	false	Breakthrough	
+5Y	LONG RANGE RECON	4	0	japan	standard	0	0	order	Order	false	Base	
+82	RED BANNER	1	0	soviet	elite	0	0	order	Order	false	Base	
+83	RED OCTOBER	4	0	soviet	limited	0	0	order	Order	false	Base	
+37	REICHSBANK	3	0	germany	standard	0	0	order	Order	false	Base	
+3m	AFRIKA KORPS	2	0	germany	elite	0	0	order	Order	false	TheatersOfWar	
+eY	REICH RESEARCH	3	0	germany	elite	0	0	order	Order	false	Breakthrough	
+38	REINFORCEMENTS	3	0	germany	limited	0	0	order	Order	false	Base	
+gY	REORGANIZE	0	0	japan	standard	0	0	order	Order	false	Breakthrough	
+0t	RESCUE MISSION	4	0	britain	special	0	0	countermeasure	Countermeasure	false	Base	
+84	RESERVES	1	0	soviet	standard	0	0	order	Order	false	Base	
+0u	RESOLUTE DEFENSE	1	0	britain	standard	0	0	order	Order	false	Allegiance	
+39	RETALIATION	2	0	germany	standard	0	0	countermeasure	Countermeasure	false	Allegiance	
+5Z	RISING SUN	1	0	japan	standard	0	0	order	Order	false	Base	
+3n	ROOT OUT THE ENEMY	4	0	germany	special	0	0	order	Order	false	TheatersOfWar	
+gv	ROYAL RESEARCH	3	0	britain	elite	0	0	order	Order	false	Breakthrough	
+0G	RULE BRITANNIA	8	0	britain	elite	0	0	order	Order	false	TheatersOfWar	
+3a	RUSH PRODUCTION	1	0	germany	standard	0	0	order	Order	false	Allegiance	
+2n	SABOTAGE	2	0	france	limited	0	0	order	Order	false	Allegiance	
+85	SCORCHED EARTH	2	0	soviet	limited	0	0	order	Order	false	Base	
+66	SCOUTING PARTY	4	0	japan	special	0	0	order	Order	false	TheatersOfWar	
+bC	SEABORNE INVASION	9	0	usa	elite	0	0	order	Order	false	Base	
+eZ	NIGHT HUNTERS	4	0	germany	special	0	0	countermeasure	Countermeasure	false	Breakthrough	
+gw	SEA PATROL	4	0	britain	limited	0	0	order	Order	false	Breakthrough	
+eH	SECOND CHANCE	4	0	britain	limited	0	0	order	Order	false	Breakthrough	
+0v	SECRET OPERATIVES	1	0	britain	special	0	0	countermeasure	Countermeasure	false	Allegiance	
+fc	TAKE INITIATIVE	2	0	japan	special	0	0	order	Order	false	Breakthrough	
+0w	SHELLING	5	0	britain	elite	0	0	order	Order	false	Allegiance	
+h7	SHORE BOMBARDMENT	4	0	usa	standard	0	0	order	Order	false	Breakthrough	
+86	SIBERIAN TRANSFER	2	0	soviet	elite	0	0	order	Order	false	Base	
+3b	SKY BARONS	4	0	germany	limited	0	0	order	Order	false	Base	
+gZ	SNEAK ATTACK	8	0	japan	special	0	0	order	Order	false	Breakthrough	
+60	SNEAK MANEUVER	1	0	japan	standard	0	0	order	Order	false	Allegiance	
+gi	SNIPED	2	0	usa	limited	0	0	countermeasure	Countermeasure	false	Breakthrough	
+2o	SORTIE	1	0	france	standard	0	0	order	Order	false	Allegiance	
+67	SOUL OF OLD JAPAN	2	0	japan	elite	0	0	order	Order	false	TheatersOfWar	
+gj	SPECIAL ASSIGNMENT	6	0	usa	special	0	0	order	Order	false	Breakthrough	
+bV	SPECIAL DELIVERY	2	0	usa	standard	0	0	order	Order	false	TheatersOfWar	
+5a	SPIRIT OF ROME	5	0	italy	limited	0	0	order	Order	false	Allegiance	
+3c	SPOILS OF WAR	2	0	germany	standard	0	0	order	Order	false	Allegiance	
+g8	SPY RING	2	0	soviet	limited	0	0	order	Order	false	Breakthrough	
+bD	STRAFING	1	0	usa	special	0	0	order	Order	false	Allegiance	
+3d	STRANGLEHOLD	1	0	germany	special	0	0	countermeasure	Countermeasure	false	Allegiance	
+bE	STRATEGIC BOMBING	6	0	usa	elite	0	0	order	Order	false	Base	
+bF	STRATEGIC PLANNING	10	0	usa	elite	0	0	order	Order	false	Allegiance	
+3e	SUDDEN STRIKE	2	0	germany	limited	0	0	order	Order	false	Base	
+bG	SUPPLY CHAIN	2	0	usa	standard	0	0	order	Order	false	Base	
+0x	SUPPLY DROP	2	0	britain	standard	0	0	order	Order	false	Base	
+bH	SUPPLY FRONT	5	0	usa	standard	0	0	order	Order	false	Allegiance	
+bI	SUPPLY SHIPMENT	2	0	usa	standard	0	0	order	Order	false	Base	
+3f	SUPPRESSION	2	0	germany	standard	0	0	order	Order	false	Allegiance	
+61	SURPRISE ATTACK	1	0	japan	standard	0	0	order	Order	false	Base	
+3g	TACTICAL STRIKE	3	0	germany	limited	0	0	order	Order	false	Base	
+0y	TACTICAL WITHDRAWAL	1	0	britain	limited	0	0	order	Order	false	Base	
+87	TAMANSKAYA!	1	0	soviet	standard	0	0	order	Order	false	Base	
+68	TARGET ACQUIRED	2	0	japan	standard	0	0	order	Order	false	TheatersOfWar	
+2p	VIVE LA RESISTANCE!	1	0	france	standard	0	0	order	Order	false	Allegiance	
+bJ	THE ALLIANCE	5	0	usa	special	0	0	order	Order	false	Base	
+0z	THE COMMONWEALTH	12	0	britain	elite	0	0	order	Order	false	Base	
+0A	THE EMPIRE STRIKES	4	0	britain	special	0	0	order	Order	false	Base	
+88	THE HAMMER	3	0	soviet	limited	0	0	order	Order	false	Base	
+bK	THE WAR MACHINE	2	0	usa	standard	0	0	order	Order	false	Base	
+62	TORA! TORA! TORA!	2	0	japan	standard	0	0	order	Order	false	Base	
+bL	TORPEDO ATTACK	4	0	usa	special	0	0	order	Order	false	Base	
+63	TO THE LAST MAN	10	0	japan	elite	0	0	order	Order	false	Allegiance	
+8i	TRACTOR FACTORIES	8	0	soviet	elite	0	0	order	Order	false	TheatersOfWar	
+0B	ULTRA	3	0	britain	elite	0	0	countermeasure	Countermeasure	false	Base	
+bM	UNCLE SAM	4	0	usa	standard	0	0	order	Order	false	Base	
+0C	UNEXPECTED RESISTANCE	0	0	britain	standard	0	0	countermeasure	Countermeasure	false	Base	
+bN	UNITY IS STRENGTH	2	0	usa	limited	0	0	order	Order	false	Base	
+8j	URA!	3	0	soviet	special	0	0	order	Order	false	TheatersOfWar	
+89	URAL FACTORIES	1	0	soviet	standard	0	0	order	Order	false	Base	
+bO	USACE	0	0	usa	standard	0	0	order	Order	false	Base	
+fG	US MILITARY RESEARCH	3	0	usa	elite	0	0	order	Order	false	Breakthrough	
+fU	U-16	1	0	germany	limited	0	0	order	Order	false	Breakthrough	
+3h	U-375	2	0	germany	limited	0	0	order	Order	false	Base	
+3i	U-48	3	0	germany	special	0	0	order	Order	false	Allegiance	
+8a	VETERAN PILOTS	1	0	soviet	standard	0	0	order	Order	false	Allegiance	
+bP	WAR BONDS	5	0	usa	limited	0	0	order	Order	false	Base	
+8b	WAR PRODUCTION	0	0	soviet	standard	0	0	order	Order	false	Base	
+bQ	WE CAN DO IT!	5	0	usa	limited	0	0	order	Order	false	Base	
+h3	WINTER OFFENSIVE	8	0	soviet	elite	0	0	order	Order	false	Breakthrough	
+8c	WINTER WARFARE	1	0	soviet	limited	0	0	order	Order	false	Base	
+3j	WOLFPACK	5	0	germany	special	0	0	order	Order	false	Base	
+8d	WORKERS UNITE!	5	0	soviet	special	0	0	order	Order	false	Base	
+64	ADMIRAL YAMAMOTO	1	0	japan	elite	0	0	order	Order	false	Base	
+fZ	YAMATO	4	0	japan	elite	0	0	order	Order	false	Breakthrough	
+8e	ZHUKOV	1	0	soviet	elite	0	0	order	Order	false	Base	
+9y	1005th RIFLES	4	1	soviet	standard	5	3	infantry	Ambush	true	TheatersOfWar	
+cp	101st AIRBORNE	5	1	usa	elite	4	3	infantry	Blitz, Ambush, Deployment	false	Base	
+cq	106th QUARTERMASTERS	4	1	usa	special	2	3	infantry	 	true	Allegiance	
+cr	109th COMBAT ENGINEERS	1	1	usa	special	1	2	infantry	Smokescreen	true	Allegiance	
+cs	10th ENGINEERS BATTALION	1	1	usa	special	1	2	infantry	 	true	Base	
+8B	10th GUARDS REGIMENT	4	1	soviet	standard	2	7	infantry	 	true	Allegiance	
+3L	10.5 cm leFH	5	1	germany	standard	2	3	artillery	Deployment	false	Base	
+0Y	111th INDIAN BRIGADE	1	1	britain	special	1	3	infantry	Fury	true	Allegiance	
+h4	71st ZHYTOMYR	5	1	soviet	special	3	5	infantry	Ambush	true	Breakthrough	
+ct	11th INFANTRY REGIMENT	3	1	usa	standard	3	3	infantry	Deployment	false	Allegiance	
+8C	329th ENGINEER BATTALION	1	4	soviet	elite	0	4	infantry	Smokescreen	true	Base	
+gk	120mm M1 GUN	5	1	usa	limited	3	3	artillery	 	true	Breakthrough	
+8D	1271st RIFLES	5	1	soviet	limited	4	6	infantry	Deployment	false	Allegiance	
+ft	128th RIFLES	1	1	soviet	standard	3	1	infantry	 	false	Breakthrough	
+cu	12th INFANTRY REGIMENT	2	1	usa	limited	2	2	infantry	Deployment	false	Allegiance	
+8E	13th RIFLE REGIMENT	2	1	soviet	limited	2	2	infantry	Destruction	false	Base	
+3M	141. GEBIRGSJÄGER	2	1	germany	special	3	2	infantry	 	true	Allegiance	
+6w	144th INFANTRY REGIMENT	3	1	japan	limited	4	3	infantry	Deployment	false	Allegiance	
+01	155 C MODÈLE 1917	6	2	france	special	2	5	artillery	Deployment	false	Allegiance	
+3N	158. NACHSCHUB	1	4	germany	elite	0	4	infantry	Smokescreen	true	Base	
+6x	15th CAVALRY REGIMENT	1	0	japan	limited	2	1	infantry	Blitz	false	Base	
+3O	15 cm AUTOKANONE	3	1	germany	elite	3	2	artillery	 	true	Base	
+dl	164th INFANTRY REGIMENT	1	0	usa	standard	1	1	infantry	Destruction	false	TheatersOfWar	
+8F	16th RIFLES	1	1	soviet	special	0	1	infantry	Smokescreen	true	Base	
+cv	17th INFANTRY REGIMENT	2	1	usa	standard	2	2	infantry	Deployment	false	Base	
+9z	17th RIFLE REGIMENT	6	2	soviet	limited	5	5	infantry	Blitz, Smokescreen	true	TheatersOfWar	
+0Z	17 POUNDER	4	1	britain	limited	2	3	artillery	Deployment	false	Base	
+5d	186th FOLGORE	2	1	italy	special	2	3	infantry	Blitz	true	Allegiance	
+cw	155mm 1918 MODEL	4	1	usa	limited	2	3	artillery	 	true	Base	
+2H	1er RÉGIMENT ÉTRANGER	5	2	france	limited	1	1	infantry	Blitz, Deployment	false	TheatersOfWar	
+10	1st AIRBORNE	1	4	britain	limited	1	1	infantry	Fury, Smokescreen	true	Allegiance	
+11	1st AIRLANDING BRIGADE	3	1	britain	elite	3	5	infantry	Smokescreen	true	Base	
+3P	1. INFANTRY REGIMENT	1	0	germany	standard	1	2	infantry	 	false	Base	
+cx	1st MARINES	3	1	usa	limited	3	4	infantry	Blitz	true	Allegiance	
+6y	1st SIGNAL REGIMENT	1	4	japan	elite	0	4	infantry	Smokescreen	true	Base	
+7r	1st TAIPEI REGIMENT	5	0	japan	standard	3	3	infantry	Blitz, Fury, Destruction	false	TheatersOfWar	
+6z	1st YOKOSUKA	2	1	japan	elite	1	3	infantry	Blitz, Fury, Deployment	false	Allegiance	
+fu	222nd GUARD RIFLES	7	2	soviet	special	8	8	infantry	Pincer	false	Breakthrough	
+12	22nd GUARDS BRIGADE	4	1	britain	limited	2	5	infantry	Guard, Deployment	false	Base	
+3Q	22. INFANTRY REGIMENT	2	1	germany	special	2	1	infantry	 	true	Base	
+g9	25th INFANTRY REGIMENT	8	2	soviet	standard	6	7	infantry	Guard	true	Breakthrough	
+3R	25. PANZERGRENADIER	4	1	germany	standard	4	5	infantry	 	true	Allegiance	
+13	25 POUNDER	4	1	britain	standard	2	3	artillery	 	false	Base	
+6A	28cm COASTAL HOWITZER	3	3	japan	limited	4	3	artillery	 	true	Base	
+2v	2e BRIGADE	5	1	france	special	2	6	infantry	Guard	true	Allegiance	
+5e	2nd ALPINI REGIMENT	2	1	italy	limited	2	2	infantry	Deployment	false	Allegiance	
+8G	2nd RIFLES	3	1	soviet	limited	3	4	infantry	Guard	true	Base	
+6B	2nd RAIDING BRIGADE	3	1	japan	elite	2	2	infantry	Blitz, Deployment	false	Base	
+dm	2/5 MARINES	2	1	usa	limited	3	2	infantry	Smokescreen	true	TheatersOfWar	
+14	2 POUNDER	2	0	britain	standard	1	2	artillery	 	true	Base	
+cy	30th REGIMENT	3	1	usa	standard	4	4	infantry	 	false	Base	
+8H	321st RIFLE REGIMENT	1	1	soviet	standard	1	2	infantry	Blitz, Destruction	false	Base	
+gl	32nd INFANTRY REGIMENT	1	1	usa	standard	2	1	infantry	Deployment	false	Breakthrough	
+cz	332nd ENGINEER REGIMENT	3	1	usa	limited	2	2	infantry	Deployment	false	Base	
+5f	33rd LIVORNO REGIMENT	4	1	italy	limited	5	7	infantry	 	true	Allegiance	
+6C	33rd RECON	1	1	japan	special	1	2	infantry	 	true	Base	
+3S	33. PANZERGRENADIER	3	1	germany	standard	4	3	infantry	Deployment	false	Base	
+8I	34th GUARDS	6	2	soviet	standard	8	8	infantry	 	true	Allegiance	
+6D	34th INFANTRY REGIMENT	1	0	japan	standard	2	2	infantry	 	true	Allegiance	
+ga	35th MOUNTAIN RIFLES	4	1	soviet	limited	5	5	infantry	 	true	Breakthrough	
+8J	35th RIFLE REGIMENT	3	1	soviet	special	3	4	infantry	 	true	Base	
+4H	361. AFRIKA REGIMENT	3	1	germany	standard	3	3	infantry	 	true	TheatersOfWar	
+5g	39th BOLOGNA REGIMENT	3	2	italy	special	3	7	infantry	Guard	true	Allegiance	
+5h	3rd ALPINI REGIMENT	1	1	italy	standard	1	2	infantry	 	false	Allegiance	
+8K	3rd GUARDS REGIMENT	2	1	soviet	standard	3	2	infantry	Ambush	false	Base	
+15	3.7” ANTI-AIR GUN	5	1	britain	limited	2	3	artillery	Deployment	false	Base	
+3T	3. FALLSCHIRMJÄGER	2	1	germany	limited	2	2	infantry	Deployment	false	Base	
+6E	41st BICYCLE REGIMENT	1	0	japan	special	1	1	infantry	Blitz, Fury	false	Base	
+8L	42nd RIFLES	3	1	soviet	limited	3	4	infantry	Ambush	true	Base	
+gb	456th RIFLE REGIMENT	2	1	soviet	standard	1	3	infantry	 	true	Breakthrough	
+8M	45 mm ANTI-TANK GUN	2	1	soviet	standard	1	2	artillery	Ambush	true	Base	
+cA	463rd BATTALION	1	1	usa	standard	1	3	infantry	 	true	Base	
+fJ	47th INFANTRY REGIMENT	8	2	usa	limited	4	4	infantry	 	true	Breakthrough	
+2w	48e RÉGIMENT D'INFANTERIE	2	1	france	standard	1	3	infantry	 	true	Allegiance	
+fK	4th MARINES	3	4	usa	standard	6	6	infantry	Blitz	false	Breakthrough	
+16	BL 4.5" MEDIUM GUN	6	2	britain	standard	3	3	artillery	Deployment	false	Allegiance	
+3U	4. PIONEER BATTALION	1	1	germany	standard	1	3	infantry	Deployment	false	Base	
+9A	503rd MOTORS	4	1	soviet	limited	2	5	infantry	Guard, Deployment	false	TheatersOfWar	
+cB	506th AIRBORNE	1	1	usa	standard	2	2	infantry	 	false	Base	
+fO	56. JÄGER REGIMENT	1	1	germany	standard	2	1	infantry	Pincer	false	Breakthrough	
+8N	554th RIFLE REGIMENT	0	0	soviet	standard	1	1	infantry	Blitz	false	Base	
+gc	ZiS-2	4	1	soviet	limited	2	2	artillery	Pincer	false	Breakthrough	
+17	5th BRIGADE	2	1	britain	standard	1	5	infantry	Guard	false	Base	
+gT	5. PANZERGRENADIER	2	1	germany	standard	2	2	infantry	Pincer	false	Breakthrough	
+h8	60th INFANTRY REGIMENT	4	1	usa	limited	3	5	infantry	 	true	Breakthrough	
+7s	61st INFANTRY REGIMENT	4	2	japan	limited	4	4	infantry	Guard, Destruction	false	TheatersOfWar	
+8O	6th AIRBORNE	6	1	soviet	elite	6	8	infantry	Deployment	false	Base	
+fW	6th ALPINI REGIMENT	4	2	italy	standard	3	5	infantry	Guard	false	Breakthrough	
+6F	6th INFANTRY REGIMENT	2	0	japan	standard	2	2	infantry	Fury	false	Base	
+8P	15th MOTOR RIFLES	3	1	soviet	special	1	5	infantry	Guard	true	Allegiance	
+8Q	6th NAVAL BRIGADE	1	0	soviet	limited	3	1	infantry	 	false	Base	
+18	6 POUNDER	3	1	britain	standard	2	1	artillery	 	true	Base	
+gH	73e RÉGIMENT D'INFANTERIE	1	1	france	standard	0	1	infantry	 	true	Breakthrough	
+8R	756th REGIMENT	7	2	soviet	limited	7	7	infantry	 	true	Base	
+6G	75mm FIELD ARTILLERY	4	1	japan	limited	3	2	artillery	 	true	Base	
+6H	75mm MOUNTAIN GUN	2	1	japan	special	3	1	artillery	 	true	Base	
+gm	75th RANGERS	5	2	usa	standard	4	6	infantry	Deployment	false	Breakthrough	
+cC	75mm PACK HOWITZER	3	1	usa	limited	3	1	artillery	 	false	Base	
+8S	76 mm HOWITZER 1939	3	1	soviet	special	3	1	artillery	Smokescreen	false	Base	
+cD	7th REGIMENT	4	2	usa	standard	3	6	infantry	 	true	Base	
+fP	81. INFANTRY REGIMENT	4	1	germany	standard	3	7	infantry	 	true	Breakthrough	
+8T	83rd NAVAL BRIGADE	6	1	soviet	elite	4	4	infantry	Ambush, Guard, Deployment	false	Allegiance	
+8U	845th RIFLES	2	1	soviet	limited	2	3	infantry	 	true	Allegiance	
+8V	84th INFANTRY REGIMENT	3	1	soviet	standard	1	8	infantry	Guard	false	Base	
+8W	85mm D-44 FIELD GUN	6	2	soviet	special	4	3	artillery	 	true	Base	
+19	85 PIONEER COMPANY	1	4	britain	elite	0	4	infantry	Smokescreen	true	Base	
+f4	87. GRENADIER	2	1	germany	standard	2	2	infantry	 	true	Breakthrough	
+3V	88 mm FLAK	6	2	germany	limited	3	4	artillery	Ambush	true	Base	
+8X	89th INFANTRY REGIMENT	1	1	soviet	standard	1	3	infantry	Guard	false	Base	
+cE	8th CAVALRY REGIMENT	4	2	usa	standard	4	5	infantry	 	true	Base	
+8Y	1st RIFLES	4	1	soviet	elite	3	5	infantry	Guard, Destruction	false	Base	
+8Z	95th RIFLE REGIMENT	5	1	soviet	standard	7	5	infantry	Deployment	false	Base	
+cF	99th INFANTRY BATTALION	2	1	usa	special	2	3	infantry	Deployment	false	Base	
+cG	A-20 HAVOC	3	2	usa	standard	2	2	bomber	Deployment	false	Base	
+90	A-20B	4	2	soviet	limited	3	4	bomber	 	true	Base	
+cH	A-26 INVADER	5	2	usa	standard	4	4	bomber	 	false	Allegiance	
+6I	A5M4 CLAUDE	2	2	japan	limited	2	3	fighter	Deployment	false	Base	
+6J	A6M3 ZEKE	4	2	japan	special	4	3	fighter	Ambush	true	Allegiance	
+3W	GREIF	1	1	germany	elite	1	1	tank	 	true	Allegiance	
+6K	AICHI D3A-2	3	2	japan	limited	3	2	bomber	Smokescreen	true	Base	
+6L	AKITA REGIMENT	2	1	japan	standard	2	1	infantry	Blitz, Destruction	false	Base	
+1a	ALBACORE Mk I	2	1	britain	special	1	2	bomber	Deployment	false	Base	
+3X	ARADO AR 196	1	1	germany	special	1	2	fighter	Deployment	false	Base	
+1b	ARGYLLSHIRE HIGHLANDERS	3	1	britain	limited	1	6	infantry	 	true	Base	
+91	BP-43 ARMORED TRAIN	5	5	soviet	elite	3	7	tank	Guard, Heavy Armor 1	true	Base	
+gz	AVRO ANSON	3	1	britain	special	1	4	fighter	 	true	Breakthrough	
+cI	A-24 BANSHEE	4	2	usa	limited	3	4	bomber	Heavy Armor 1	false	Base	
+cJ	A-36 APACHE	6	2	usa	limited	4	4	fighter	 	true	Allegiance	
+92	B-4 203mm HOWITZER	5	1	soviet	special	2	3	artillery	Fury	true	Base	
+7t	B6N TENZAN	5	2	japan	limited	3	3	bomber	Deployment	false	TheatersOfWar	
+1c	BALUCH REGIMENT	3	1	britain	standard	3	4	infantry	Deployment	false	Base	
+1d	BLACK WATCH	5	1	britain	special	1	6	infantry	Fury, Guard, Deployment	false	Base	
+1e	BLENHEIM Mk IV	3	2	britain	standard	2	3	bomber	 	false	Allegiance	
+ha	BLOCH MB.152	3	2	france	special	2	3	fighter	Heavy Armor 1	true	Breakthrough	
+4M	BLOHM & VOSS BV 138	3	2	germany	elite	2	4	fighter	 	true	Breakthrough	
+1f	M4 FIREFLY	5	2	britain	elite	8	5	tank	 	true	Base	
+93	BT-7	2	0	soviet	standard	2	2	tank	 	false	Base	
+cK	B-17 FLYING FORTRESS	9	3	usa	special	5	5	bomber	Heavy Armor 1, Deployment	false	Base	
+h9	B-17F	10	3	usa	elite	6	6	bomber	Blitz, Heavy Armor 1	true	Breakthrough	
+cL	B-24 LIBERATOR	7	3	usa	limited	7	5	bomber	Heavy Armor 1	false	Base	
+cM	B-25 H	5	2	usa	limited	3	3	bomber	Deployment	false	Allegiance	
+cN	B-25 MITCHELL	6	3	usa	limited	4	5	bomber	Deployment	false	Base	
+2x	B-26 GROUPE BRETAGNE	4	2	france	limited	3	4	bomber	 	true	Allegiance	
+cO	B-26 MARAUDER	4	2	usa	elite	3	4	bomber	Heavy Armor 1	true	Base	
+cP	B-29 SUPERFORTRESS	15	4	usa	elite	9	9	bomber	Blitz, Heavy Armor 2	true	Allegiance	
+fL	C-47 SKYTRAIN	5	2	usa	elite	1	6	bomber	 	true	Breakthrough	
+6M	C6N SAIUN	3	2	japan	elite	3	3	fighter	 	true	Base	
+2y	CHAR B1 bis	6	2	france	special	4	4	tank	Heavy Armor 2	true	Allegiance	
+1g	CHURCHILL Mk IV	5	2	britain	standard	2	6	tank	Guard, Heavy Armor 1	false	Base	
+1h	9.2” COASTAL GUN	7	2	britain	limited	4	4	artillery	 	true	Base	
+1i	COLDSTREAM GUARDS	3	1	britain	limited	1	4	infantry	Guard, Deployment	false	Allegiance	
+3Y	KOMET	6	0	germany	elite	4	2	fighter	Blitz	true	Base	
+1j	A34 COMET	6	2	britain	elite	6	6	tank	Heavy Armor 1	true	Base	
+1k	No. 10 COMMANDO	2	1	britain	limited	2	1	infantry	Smokescreen	true	Base	
+cQ	CORSAIR F4U-1C	5	2	usa	standard	4	6	fighter	 	false	Base	
+cR	CORSAIR F4U-1D	6	2	usa	special	4	4	fighter	Destruction	false	Base	
+94	4th KUBAN COSSACKS	3	0	soviet	elite	3	3	infantry	Blitz, Smokescreen	false	Base	
+1l	CROMWELL Mk IV	4	2	britain	special	3	6	tank	Heavy Armor 1	true	Allegiance	
+gA	CRUISER Mk III	4	1	britain	limited	2	5	tank	Pincer	false	Breakthrough	
+1m	CRUSADER Mk II	3	1	britain	special	2	3	tank	 	true	Base	
+6N	D4Y SUISEI	3	2	japan	standard	2	1	bomber	Destruction	false	Allegiance	
+1n	HUMBER Mk II	1	1	britain	standard	1	3	tank	Fury	false	Base	
+2z	DEWOITINE D.520	4	2	france	limited	3	4	fighter	 	true	Allegiance	
+6O	M6A1 SEIRAN	4	2	japan	special	1	4	bomber	 	true	Base	
+hH	Ki-46 DINAH III	3	1	japan	elite	1	3	fighter	Deployment	false	Breakthrough	
+3Z	DORNIER DO 217	6	2	germany	special	5	4	bomber	 	true	Base	
+1U	EAST SURREY REGIMENT	3	1	britain	standard	2	6	infantry	Guard	false	TheatersOfWar	
+cS	F4F-3 WILDCAT	2	2	usa	standard	2	3	fighter	 	false	Allegiance	
+cT	F4F-4 WILDCAT	3	2	usa	standard	3	3	fighter	 	true	Base	
+40	8. FALLSCHIRMJAGER	2	1	germany	elite	3	2	infantry	Blitz, Fury	false	Base	
+5i	FIAT C.R.42	0	1	italy	standard	1	2	fighter	 	true	Allegiance	
+fX	FIAT G.50	2	2	italy	limited	2	3	fighter	 	true	Breakthrough	
+5j	FIAT G.55	4	2	italy	limited	3	3	fighter	Deployment	false	Allegiance	
+41	3.7cm FLAK 37	2	0	germany	standard	1	2	tank	Blitz	false	Base	
+42	FLAMMPANZER	3	2	germany	limited	3	3	tank	Deployment	false	Allegiance	
+2A	FRENCH 75	3	1	france	standard	1	1	artillery	 	true	Allegiance	
+2B	EXPEDITIONARY CORPS	2	1	france	standard	2	2	infantry	Deployment	false	Allegiance	
+2C	H75-C1	3	2	france	limited	2	3	fighter	Deployment	false	Allegiance	
+43	FW 190 A	6	2	germany	standard	5	5	fighter	Deployment	false	Base	
+gU	FW 190 JAGDBOMBER	5	2	germany	elite	5	4	fighter	Deployment	false	Breakthrough	
+f5	FW 200 CONDOR	3	2	germany	special	3	3	bomber	Blitz, Deployment	false	Breakthrough	
+6P	G4M1 BETTY	2	1	japan	standard	3	1	bomber	Deployment	true	Base	
+1o	GLADIATOR Mk I	1	1	britain	limited	1	3	fighter	 	false	Base	
+44	980. VOLKSGRENADIER	3	1	germany	standard	3	6	infantry	 	false	Base	
+1q	GRENADIER GUARDS	6	1	britain	special	5	9	infantry	Guard	false	Base	
+cU	F6F HELLCAT	2	1	usa	elite	1	2	fighter	 	true	Base	
+1r	HAMPDEN Mk I	5	2	britain	limited	3	3	bomber	Blitz	false	Base	
+6Q	Ki-43 HAYABUSA	4	2	japan	standard	3	3	fighter	Destruction	false	Base	
+45	HEINKEL HE 219	4	2	germany	limited	4	5	fighter	 	true	Allegiance	
+46	HENSCHEL HS 123	2	1	germany	special	1	3	bomber	Fury	false	Base	
+47	HENSCHEL HS 126	2	1	germany	standard	1	2	fighter	Deployment	false	Allegiance	
+6R	HIMEJI REGIMENT	1	1	japan	standard	3	1	infantry	 	false	Base	
+2D	HOTCHKISS H35	2	1	france	standard	2	3	tank	 	false	Allegiance	
+1s	HUDSON Mk III	4	2	britain	special	3	4	bomber	 	true	Base	
+48	HUMMEL	5	2	germany	limited	2	4	artillery	Deployment	false	Allegiance	
+1t	HURRICANE Mk I	3	2	britain	standard	3	2	fighter	Blitz	false	Base	
+1u	HURRICANE Mk IIA	3	2	britain	limited	3	3	fighter	Fury	false	Base	
+2E	IIéme RMT	7	2	france	special	3	9	infantry	Guard	true	Allegiance	
+gB	IRISH GUARDS	3	1	britain	standard	2	4	infantry	Fury, Pincer	false	Breakthrough	
+95	ISU-152	7	2	soviet	elite	4	6	tank	Heavy Armor 2	true	Base	
+96	IOSEF STALIN II	10	1	soviet	elite	8	8	tank	Heavy Armor 2	true	Base	
+5k	SAVOIA CAVALLERIA	1	1	italy	standard	1	1	infantry	Blitz	true	Allegiance	
+97	I-15 CHAIKA	2	1	soviet	special	1	2	fighter	Destruction	false	Base	
+98	I-16 ISHAK	2	2	soviet	standard	3	2	fighter	 	false	Base	
+6S	J1N1 GEKKO	5	2	japan	standard	3	3	fighter	 	true	Base	
+6T	JADE DIVISION	5	2	japan	elite	6	6	infantry	 	true	Base	
+49	JAGDPANTHER	4	2	germany	standard	5	3	tank	Ambush	false	Base	
+fl	Ki-100 GOSHIKISEN	5	2	japan	special	6	4	fighter	 	true	Breakthrough	
+4a	JUNKERS JU 188 E	7	3	germany	special	5	6	bomber	Fury	false	Base	
+4b	JUNKERS JU 88 A	5	2	germany	limited	4	5	bomber	 	false	Base	
+4c	Ju 87 B2	4	2	germany	limited	3	2	bomber	Deployment	false	Allegiance	
+4d	JU 87 B STUKA	4	2	germany	standard	3	2	bomber	 	true	Base	
+6U	KAGOSHIMA REGIMENT	3	1	japan	special	5	3	infantry	Ambush	true	Allegiance	
+99	KATYUSHA	2	1	soviet	limited	1	2	artillery	Blitz	true	Base	
+fm	KAWANISHI H6K	7	2	japan	elite	1	7	bomber	 	true	Breakthrough	
+6V	Ki-27 NATE	2	1	japan	special	2	1	fighter	Destruction	false	Base	
+6W	Ki-44 TOJO	4	2	japan	limited	4	2	fighter	Ambush, Deployment	false	Base	
+6X	Ki-51 SONIA	2	1	japan	special	1	2	bomber	 	true	Allegiance	
+6Y	Ki-61 HIEN	5	3	japan	standard	5	4	fighter	Blitz	false	Base	
+6Z	Ki-61-II TONY	6	3	japan	limited	5	4	fighter	Blitz	true	Allegiance	
+7x	Ki-83	4	2	japan	elite	6	5	fighter	 	true	Breakthrough	
+70	Ki-84 FRANK	5	3	japan	limited	7	5	fighter	Fury	true	Base	
+71	KUMAMOTO REGIMENT	3	0	japan	limited	4	1	infantry	Blitz	false	Base	
+9a	KV-1 1939	6	2	soviet	special	4	6	tank	Guard, Heavy Armor 1	false	Base	
+9b	KV-1 1941	6	2	soviet	elite	3	6	tank	Heavy Armor 1	true	Base	
+9c	KV-2	7	3	soviet	special	6	5	tank	Heavy Armor 2	true	Allegiance	
+5l	L6/40	1	0	italy	standard	1	3	tank	Blitz, Destruction	false	Allegiance	
+1v	LANCASHIRE FUSILIERS	4	1	britain	standard	5	6	infantry	 	false	Allegiance	
+1w	LANCASTER Mk I	9	3	britain	limited	7	4	bomber	Blitz	false	Base	
+1x	LANCASTER B.III	7	3	britain	elite	5	4	bomber	Blitz	true	Base	
+9d	LA-5	4	2	soviet	limited	4	4	fighter	 	false	Base	
+hG	LA DECIMA	8	1	italy	special	2	4	infantry	Ambush, Guard, Deployment	false	Breakthrough	
+9e	37 mm ANTI-AIRCRAFT GUN	1	1	soviet	standard	1	1	artillery	Smokescreen	true	Base	
+dt	M10 WOLVERINE	2	1	usa	special	3	2	tank	 	true	Breakthrough	
+5s	M13/40	3	2	italy	limited	3	4	tank	Deployment	false	TheatersOfWar	
+cV	M16 HALF-TRACK	3	1	usa	limited	2	2	tank	Deployment	false	Base	
+cW	M18 HELLCAT	3	1	usa	special	4	2	tank	Blitz	true	Base	
+cX	LONG TOM	5	2	usa	elite	2	4	artillery	 	true	Base	
+cY	M24 CHAFFEE	3	2	usa	elite	4	2	tank	 	true	Base	
+cZ	M26 PERSHING	10	3	usa	elite	8	8	tank	Blitz, Heavy Armor 2	true	Base	
+d1	M36 JACKSON	5	1	usa	limited	6	4	tank	 	true	Base	
+1V	M3A3 HONEY	2	1	britain	limited	2	3	tank	 	true	TheatersOfWar	
+d2	M5 STUART	3	1	usa	standard	2	4	tank	 	true	Base	
+d3	M4A1	4	2	usa	special	4	5	tank	 	true	Allegiance	
+d4	M4 SHERMAN	4	2	usa	standard	4	4	tank	Deployment	false	Base	
+d5	M4A3R3 ZIPPO	4	2	usa	limited	3	4	tank	 	true	Base	
+d6	M7 PRIEST	3	1	usa	limited	1	2	artillery	Deployment	false	Base	
+d7	M8 GREYHOUND	1	1	usa	standard	1	3	tank	Blitz	true	Base	
+d8	M8 HOWITZER	5	2	usa	standard	2	3	artillery	Deployment	false	Allegiance	
+5m	MACCHI C.202	2	1	italy	standard	2	4	fighter	 	true	Allegiance	
+1y	MANCHESTER IA	7	3	britain	elite	6	4	bomber	Deployment	false	Allegiance	
+4e	MARDER III H	4	1	germany	special	3	3	tank	 	true	Base	
+d9	3rd MARINE REGIMENT	3	2	usa	standard	5	5	infantry	Smokescreen	false	Base	
+1z	MATILDA Mk II	4	2	britain	standard	3	5	tank	Heavy Armor 1	true	Base	
+4f	ME 262A SCHWALBE	8	3	germany	elite	8	5	fighter	Deployment	false	Base	
+f7	ME 410 HORNISSE	7	2	germany	elite	3	4	fighter	 	true	Breakthrough	
+4g	ME BF 109 E	3	2	germany	standard	3	4	fighter	 	false	Base	
+4h	ME BF 110	4	2	germany	limited	3	3	fighter	 	true	Base	
+9g	MIG 3	5	2	soviet	limited	4	5	fighter	 	true	Allegiance	
+fo	MIKAWA REGIMENT	3	1	japan	special	4	4	infantry	Blitz, Deployment	false	Breakthrough	
+72	MITO REGIMENT	3	1	japan	standard	2	3	infantry	Blitz, Destruction	false	Base	
+73	MODEL 25	1	1	japan	standard	1	1	tank	Deployment	false	Base	
+1A	MOSQUITO FB Mk VI	6	2	britain	elite	4	4	fighter	Deployment	false	Base	
+da	5th INFANTRY REGIMENT	2	1	usa	standard	2	3	infantry	 	true	Allegiance	
+2F	M.S.406	3	2	france	standard	3	3	fighter	 	false	Allegiance	
+74	B5N KATE	4	2	japan	limited	3	2	bomber	Deployment	false	Base	
+4i	NEBELWERFER 42	3	1	germany	limited	2	2	artillery	Deployment	false	Base	
+1W	No. 1 COMMANDO	2	1	britain	limited	1	3	infantry	Smokescreen	true	TheatersOfWar	
+1B	No. 43 COMMANDO	6	2	britain	elite	3	3	infantry	Fury, Ambush	true	Allegiance	
+hE	No. 3 COMMANDO	3	1	britain	special	3	3	infantry	 	true	Breakthrough	
+5n	OBICE DA 75/13	3	1	italy	special	1	2	artillery	Deployment	false	Allegiance	
+75	OSAKA REGIMENT	5	1	japan	standard	4	7	infantry	Guard	false	Allegiance	
+76	P1Y GINGA	6	2	japan	limited	5	4	bomber	Deployment	false	Base	
+db	P-38 LIGHTNING	4	2	usa	limited	3	5	fighter	 	true	Base	
+1C	RAAF LIGHTNING F-4	5	2	britain	special	3	5	fighter	Deployment	false	Base	
+dn	P-39 AIRACOBRA	4	2	usa	limited	3	4	fighter	 	true	TheatersOfWar	
+dc	P-40 N-5	4	2	usa	elite	4	3	fighter	 	true	Base	
+1D	P-40 KITTYHAWK	3	2	britain	elite	2	3	fighter	Deployment	false	Base	
+dd	P-40 WARHAWK	3	2	usa	standard	2	3	fighter	 	true	Base	
+de	P-47D THUNDERBOLT	5	2	usa	special	3	6	fighter	 	true	Base	
+df	P-51 MUSTANG	6	2	usa	limited	6	4	fighter	Deployment	false	Base	
+4j	PAK 36	1	1	germany	standard	1	1	artillery	 	true	Base	
+4k	PAK 38	3	1	germany	standard	1	3	artillery	Ambush	true	Base	
+fQ	PAK 40	4	1	germany	limited	2	2	artillery	Ambush	true	Breakthrough	
+4l	PANTHER G	5	3	germany	special	6	5	tank	Heavy Armor 1	true	Base	
+4m	PANTHER A	6	2	germany	special	5	5	tank	Heavy Armor 1, Deployment	false	Allegiance	
+4n	59. PANZERGRENADIER	2	1	germany	standard	3	2	infantry	 	true	Base	
+4o	PANZERZUG 61 BP42	9	5	germany	elite	5	9	tank	Heavy Armor 1	true	Base	
+fR	Pz. BEFEHLSWAGEN 35t	2	1	germany	special	2	2	tank	 	true	Breakthrough	
+4p	PANZER 35(t)	2	1	germany	limited	2	2	tank	Blitz, Deployment	false	Base	
+4q	PANZER 38(t)	3	1	germany	standard	2	2	tank	Deployment	false	Base	
+4r	PANZER III-L	3	2	germany	elite	3	5	tank	Blitz	true	Base	
+gV	PANZER III-F	3	2	germany	special	3	3	tank	Blitz, Deployment	false	Breakthrough	
+4I	PANZER III-G	3	2	germany	limited	3	4	tank	Blitz	true	TheatersOfWar	
+4s	PANZER III-H	4	1	germany	special	2	4	tank	 	false	Allegiance	
+4t	PANZER III-J	4	2	germany	limited	4	5	tank	Blitz	false	Base	
+4u	PANZER III-E	4	2	germany	special	4	4	tank	Blitz, Smokescreen	true	Base	
+4v	PANZER II-A	1	1	germany	standard	1	3	tank	Blitz, Smokescreen	false	Base	
+4w	PANZER II-C	1	1	germany	standard	1	3	tank	Deployment	false	Allegiance	
+4x	PANZER IV F2	6	2	germany	limited	5	5	tank	Deployment	false	Base	
+4y	PANZER IV-G	5	2	germany	standard	5	6	tank	 	false	Base	
+gn	PBY CATALINA	4	2	usa	elite	3	5	bomber	 	true	Breakthrough	
+77	F1M2 PETE	2	2	japan	elite	2	2	bomber	 	true	Base	
+9h	PETLYAKOV PE-2	3	3	soviet	special	4	4	bomber	 	false	Base	
+gd	PETLYAKOV Pe-2FT	3	2	soviet	special	2	4	bomber	 	true	Breakthrough	
+9i	POLIKARPOV PO-2	1	1	soviet	standard	1	2	bomber	 	false	Allegiance	
+gI	POTEZ 63.11	4	2	france	limited	3	3	fighter	 	true	Breakthrough	
+9j	P-40B TOMAHAWK	3	2	soviet	elite	2	3	fighter	 	true	Allegiance	
+dg	P-61 BLACK WIDOW	5	2	usa	elite	4	5	fighter	 	true	Allegiance	
+1E	QF 40mm Mk III	3	1	britain	standard	1	2	artillery	 	true	Base	
+gC	RAF GROUND CREW	3	1	britain	limited	0	4	infantry	 	true	Breakthrough	
+4z	LEOPOLD	10	3	germany	elite	6	4	artillery	Deployment	false	Base	
+1F	26 ENGINEER REGIMENT	3	1	britain	limited	2	3	infantry	Deployment	false	Base	
+gD	ROYAL SCOTS	2	1	britain	standard	1	5	infantry	 	true	Breakthrough	
+1G	ROYAL ULSTER RIFLES	4	1	britain	elite	2	7	infantry	Smokescreen	true	Allegiance	
+1H	ROYAL WEST KENTS	5	1	britain	limited	2	5	infantry	 	true	Base	
+78	Ki-21 SALLY	4	3	japan	limited	5	2	bomber	Deployment	false	Base	
+dh	SBD 3 DAUNTLESS	3	3	usa	limited	3	3	bomber	Heavy Armor 1	false	Base	
+4A	Sd KFz 222	1	1	germany	limited	1	1	tank	Blitz	true	Base	
+eL	SEAFORTH HIGHLANDERS	4	1	britain	special	1	7	infantry	Guard	true	Breakthrough	
+5o	SEMOVENTE DA 75/18	3	1	italy	special	3	3	tank	Heavy Armor 1	true	Allegiance	
+79	SENDAI REGIMENT	4	1	japan	special	2	3	infantry	Smokescreen, Deployment	false	Base	
+1J	SEXTON	5	2	britain	elite	3	4	artillery	Deployment	true	Base	
+7a	SHIBATA REGIMENT	1	1	japan	standard	1	2	infantry	Blitz	true	Allegiance	
+7b	N1K-J SHIDEN	5	3	japan	elite	4	4	fighter	Blitz, Fury, Ambush	false	Base	
+gE	SUNDERLAND Mk V	6	2	britain	elite	2	6	bomber	 	true	Breakthrough	
+gF	WELLINGTON	8	2	britain	elite	5	4	bomber	 	true	Breakthrough	
+1K	BLACKBURN SKUA Mk II	4	2	britain	limited	2	2	bomber	Deployment	false	Base	
+5p	SAVOIA-MARCHETTI SM.79	4	2	italy	limited	5	3	bomber	 	true	Allegiance	
+7c	AICHI D3A-1	2	1	japan	special	2	1	bomber	Destruction	false	Base	
+1L	SPITFIRE Mk Ia	5	2	britain	standard	5	5	fighter	 	false	Base	
+hF	SPITFIRE Mk II	4	2	britain	limited	3	5	fighter	 	true	Breakthrough	
+1M	SPITFIRE Mk V	6	2	britain	standard	6	6	fighter	 	false	Base	
+1N	STIRLING Mk I S3	6	2	britain	special	6	4	bomber	Deployment	false	Base	
+4B	STUG III-F	2	1	germany	standard	2	3	tank	Smokescreen	true	Base	
+4C	STUG III-G	3	1	germany	standard	3	3	tank	 	true	Allegiance	
+fS	STUG III G SCHÜRZEN	3	1	germany	limited	3	4	tank	Pincer	false	Breakthrough	
+4D	STUG IV	3	2	germany	limited	3	4	tank	Fury	true	Base	
+9k	SHTURMOVIK Il-2M	4	2	soviet	standard	4	3	bomber	Heavy Armor 1	true	Base	
+9l	SU 152	5	1	soviet	limited	4	4	tank	Heavy Armor 1, Deployment	false	Base	
+9m	SU-76M	3	1	soviet	standard	5	3	tank	Deployment	false	Base	
+9n	SU-85	4	2	soviet	standard	5	3	tank	 	true	Allegiance	
+1O	SWORDFISH Mk I	1	1	britain	limited	1	3	bomber	 	false	Base	
+di	T19 HOWITZER	2	1	usa	standard	1	3	artillery	 	true	Base	
+7d	TAKASAKI REGIMENT	4	2	japan	special	2	6	infantry	Guard, Destruction	false	Base	
+dj	TBF-1 AVENGER	8	2	usa	special	4	4	bomber	Deployment	false	Base	
+1Q	TEMPEST Mk V	7	2	britain	limited	3	7	fighter	Ambush	true	Allegiance	
+4E	TIGER I-H	8	3	germany	special	8	8	tank	Heavy Armor 2	true	Base	
+4F	TIGER I-E	8	3	germany	elite	7	7	tank	Heavy Armor 2	true	Allegiance	
+g0	TOYAMA REGIMENT	3	1	japan	standard	4	2	infantry	Ambush, Guard	false	Breakthrough	
+7e	TYPE 94 TK	1	0	japan	limited	1	1	tank	Deployment	false	Allegiance	
+7f	TYPE 1 37mm	3	1	japan	standard	1	2	artillery	Deployment	false	Allegiance	
+7g	TYPE 1 Chi-He	4	2	japan	limited	2	4	tank	 	true	Allegiance	
+7h	TYPE 3 Chi-Nu	5	2	japan	limited	4	5	tank	 	true	Base	
+7i	TYPE 4 Ho-Ro	4	1	japan	special	3	3	artillery	Smokescreen	false	Base	
+7j	TYPE 88 AA GUN	2	1	japan	standard	1	3	artillery	 	true	Base	
+7k	TYPE 89 Chi-Ro	3	1	japan	limited	4	1	tank	Smokescreen	false	Base	
+g1	TYPE 92 105mm FIELD GUN	5	1	japan	limited	3	3	artillery	 	true	Breakthrough	
+7l	TYPE 93	1	1	japan	limited	1	1	tank	 	true	Base	
+7m	TYPE 95 Ha-Go	2	1	japan	standard	2	2	tank	 	true	Base	
+7n	TYPE 96 AA GUN	4	1	japan	elite	2	2	artillery	Destruction	false	Base	
+7o	TYPE 97 Chi-Ha	3	1	japan	standard	3	3	tank	 	true	Base	
+g2	TYPE 97 SHINHOTO	3	1	japan	limited	3	3	tank	Blitz	false	Breakthrough	
+7p	TYPE 98 Ke-Ni	2	0	japan	limited	2	1	tank	 	true	Base	
+1R	TYPHOON Mk IB	4	2	britain	special	4	4	fighter	 	true	Allegiance	
+ge	T-28	3	1	soviet	elite	2	3	tank	Blitz, Smokescreen, Pincer	false	Breakthrough	
+9p	T-34 1942	5	2	soviet	standard	5	5	tank	Blitz	false	Base	
+9r	T-34-85	5	2	soviet	standard	5	5	tank	Heavy Armor 1	true	Base	
+9s	OT-34	6	2	soviet	special	4	5	tank	Smokescreen	true	Base	
+h5	T-60	4	1	soviet	limited	2	4	tank	Guard, Destruction	false	Breakthrough	
+9t	T-70	2	1	soviet	standard	3	2	tank	Guard	false	Base	
+9v	T-80	2	0	soviet	special	3	2	tank	Destruction	false	Allegiance	
+fN	USAAF SPITFIRE IX	7	2	usa	special	5	5	fighter	Deployment	false	Breakthrough	
+dk	593rd JASCO	1	4	usa	elite	0	4	infantry	Smokescreen	true	Base	
+g3	UTSUNOMIYA REGIMENT	5	1	japan	standard	4	6	infantry	 	true	Breakthrough	
+1S	VALENTINE Mk III	3	1	britain	standard	2	4	tank	Fury	false	Allegiance	
+fq	WAKAMATSU REGIMENT	1	1	japan	standard	2	2	infantry	Fury, Destruction	false	Breakthrough	
+1T	WELSH GUARDS	2	1	britain	standard	1	3	infantry	Guard, Deployment	false	Allegiance	
+4J	WESPE	3	1	germany	limited	1	3	artillery	 	true	TheatersOfWar	
+4G	WIRBELWIND	2	1	germany	special	2	3	tank	Blitz	true	Base	
+9w	YAK 3	4	2	soviet	limited	3	5	fighter	Ambush	true	Base	
+fx	YAK 7	2	1	soviet	elite	2	2	fighter	 	true	Breakthrough	
+9x	YAK 9	5	2	soviet	special	3	5	fighter	Destruction	false	Base	
+hI	YAMAGATA REGIMENT	2	0	japan	limited	2	3	infantry	 	true	Breakthrough	
+7q	A6M2 ZERO	5	2	japan	standard	4	4	fighter	Ambush, Deployment	false	Base	

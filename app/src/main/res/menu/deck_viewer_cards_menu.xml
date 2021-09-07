@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_layout_deck"
+        android:icon="@drawable/headline_icon"
+        android:title="@string/change_card_layout"
+        app:showAsAction="always" />
+
+</menu>

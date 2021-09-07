@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:id="@+id/parent_layout"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/flavor_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:alpha="0.5"
+            android:scaleType="centerCrop"
+            android:scaleX="1.1"
+            android:scaleY="1.1"
+            android:src="@drawable/bg1"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/background_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#70FFFFFF"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="#BDB594"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            app:cardCornerRadius="4dp"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/instr_text"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            app:autoSizeTextType="uniform"
+            android:textStyle="italic"
+            app:autoSizeStepGranularity="1dp"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/pt_sans_narrow_bold"
+            android:text="@string/instructions"
+            android:textAlignment="center"
+            android:textColor="#B4000000"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppTheme"
+    android:id="@+id/drawer_layout_cards"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="OnClick, ContentDescription, KeyboardInaccessibleWidget"
+    tools:context=".ViewerCardsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/viewer_cards_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fadeScrollbars="true"
+            android:scrollbars="vertical"
+            app:layout_constraintBottom_toTopOf="@id/bottom_bar_container"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/floating_action_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/viewer_cards_recyclerview"
+            app:menu_showShadow="true"
+            app:menu_fab_label=""
+            app:menu_openDirection="up"
+            app:menu_colorNormal="@android:color/holo_orange_dark"
+            app:menu_colorPressed="@android:color/holo_orange_dark"
+            app:fab_colorRipple="@android:color/holo_orange_light"
+            app:menu_backgroundColor="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorPressed="@android:color/holo_orange_dark"
+                app:fab_colorNormal="@android:color/holo_orange_dark"
+                app:fab_colorRipple="@android:color/holo_orange_light"
+                app:fab_label="@string/delete_deck"
+                app:fab_size="mini"
+                android:src="@drawable/delete_icon"
+                android:id="@+id/delete_fab"
+                android:onClick="deleteDeckHandler" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorPressed="@android:color/holo_orange_dark"
+                app:fab_colorNormal="@android:color/holo_orange_dark"
+                app:fab_colorRipple="@android:color/holo_orange_light"
+                app:fab_label="@string/edit_deck"
+                app:fab_size="mini"
+                android:src="@drawable/edit_icon"
+                android:id="@+id/edit_fab"
+                android:onClick="editDeckHandler" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorPressed="@android:color/holo_orange_dark"
+                app:fab_colorNormal="@android:color/holo_orange_dark"
+                app:fab_colorRipple="@android:color/holo_orange_light"
+                app:fab_label="@string/simulate_draw"
+                app:fab_size="mini"
+                android:src="@drawable/cards_icon"
+                android:id="@+id/draw_fab"
+                android:onClick="simulateDrawHandler" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorPressed="@android:color/holo_orange_dark"
+                app:fab_colorNormal="@android:color/holo_orange_dark"
+                app:fab_colorRipple="@android:color/holo_orange_light"
+                app:fab_label="@string/update_winrate"
+                app:fab_size="mini"
+                android:src="@drawable/star_icon"
+                android:id="@+id/win_fab"
+                android:onClick="updateWinRateHandler" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bottom_bar_container"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="bottom"
+            android:elevation="5dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#202020" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.33" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.66" />
+
+            <ImageView
+                android:id="@+id/main_image"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/japan_unselected"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@+id/main_count"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_count"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="5dp"
+                app:autoSizeStepGranularity="2dp"
+                app:autoSizeTextType="uniform"
+                android:text="30"
+                android:textColor="#D3D1C3"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toEndOf="@+id/main_image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/ally_image"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/germany_unselected"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@+id/ally_count"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/ally_count"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="5dp"
+                android:text="10"
+                android:textAlignment="center"
+                android:textColor="#D3D1C3"
+                android:textStyle="bold"
+                app:autoSizeStepGranularity="2dp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                app:layout_constraintStart_toEndOf="@+id/ally_image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/total_count"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="5dp"
+                android:text="10/40"
+                android:textAlignment="center"
+                android:textColor="#D3D1C3"
+                android:textStyle="bold"
+                app:autoSizeStepGranularity="2dp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imageView"
+                app:layout_constraintStart_toStartOf="@+id/guideline3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

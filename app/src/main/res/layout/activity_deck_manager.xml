@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/AppTheme"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#202020"
+        android:elevation="5dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/manager_drawer_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:background="#000000"
+            tools:context=".CollectionActivity">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/manager_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#404040"
+                android:fadeScrollbars="true"
+                android:fadingEdge="horizontal"
+                android:layoutAnimation="@anim/decks_animation"
+                android:scrollbars="vertical"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <RelativeLayout
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/drawer"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:elevation="5dp"
+            android:background="#202020"
+            android:padding="10dp"
+            android:clickable="true"
+            tools:ignore="KeyboardInaccessibleWidget">
+
+
+            <ToggleButton
+                android:id="@+id/filter_usa"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/usa_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterCountry"
+                android:layout_centerHorizontal="true"/>
+
+            <ToggleButton
+                android:id="@+id/filter_britain"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/filter_usa"
+                android:background="@drawable/britain_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterCountry"
+                android:layout_centerHorizontal="true"/>
+
+            <ToggleButton
+                android:id="@+id/filter_soviet"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/filter_britain"
+                android:background="@drawable/soviet_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterCountry"
+                android:layout_centerHorizontal="true"/>
+
+            <ToggleButton
+                android:id="@+id/filter_germany"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/filter_soviet"
+                android:background="@drawable/germany_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterCountry"
+                android:layout_centerHorizontal="true"/>
+
+            <ToggleButton
+                android:id="@+id/filter_japan"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/filter_germany"
+                android:background="@drawable/japan_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="filterCountry"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</RelativeLayout>

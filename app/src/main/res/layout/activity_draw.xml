@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme">
+
+    <ImageView
+        android:id="@+id/bg_draw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tint="#85000000"
+        android:src="@drawable/bg1"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/draw_card1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintDimensionRatio="7:10"
+        app:layout_constraintEnd_toStartOf="@+id/draw_card2"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.19">
+
+        <ImageView
+            android:id="@+id/draw_card1_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/m5th_brigade"
+            tools:ignore="ContentDescription" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/draw_card2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintDimensionRatio="7:10"
+        app:layout_constraintEnd_toStartOf="@id/draw_card3"
+        app:layout_constraintStart_toEndOf="@+id/draw_card1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.19">
+
+        <ImageView
+            android:id="@+id/draw_card2_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/m5th_brigade"
+            tools:ignore="ContentDescription" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/draw_card3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintDimensionRatio="7:10"
+        app:layout_constraintEnd_toStartOf="@+id/draw_card4"
+        app:layout_constraintStart_toEndOf="@+id/draw_card2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.19">
+
+        <ImageView
+            android:id="@+id/draw_card3_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/m5th_brigade"
+            tools:ignore="ContentDescription" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/draw_card4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintDimensionRatio="7:10"
+        app:layout_constraintEnd_toStartOf="@id/draw_card5"
+        app:layout_constraintStart_toEndOf="@+id/draw_card3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.19">
+
+        <ImageView
+            android:id="@+id/draw_card4_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/m5th_brigade"
+            tools:ignore="ContentDescription" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/draw_card5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintDimensionRatio="7:10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/draw_card4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.19">
+
+        <ImageView
+            android:id="@+id/draw_card5_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/m5th_brigade"
+            tools:ignore="ContentDescription" />
+    </androidx.cardview.widget.CardView>
+
+    <ToggleButton
+        android:id="@+id/selector_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/mulligan_toggle"
+        android:backgroundTint="#C3FF3B3B"
+        android:checked="true"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@id/draw_card1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/draw_card1"
+        app:layout_constraintStart_toStartOf="@id/draw_card1"
+        app:layout_constraintTop_toTopOf="@id/draw_card1" />
+
+    <ToggleButton
+        android:id="@+id/selector_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/mulligan_toggle"
+        android:backgroundTint="#C3FF3B3B"
+        android:checked="true"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@id/draw_card2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/draw_card2"
+        app:layout_constraintStart_toStartOf="@id/draw_card2"
+        app:layout_constraintTop_toTopOf="@id/draw_card2" />
+
+    <ToggleButton
+        android:id="@+id/selector_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/mulligan_toggle"
+        android:backgroundTint="#C3FF3B3B"
+        android:checked="true"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@id/draw_card3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/draw_card3"
+        app:layout_constraintStart_toStartOf="@id/draw_card3"
+        app:layout_constraintTop_toTopOf="@id/draw_card3" />
+
+    <ToggleButton
+        android:id="@+id/selector_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/mulligan_toggle"
+        android:backgroundTint="#C3FF3B3B"
+        android:checked="true"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@id/draw_card4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/draw_card4"
+        app:layout_constraintStart_toStartOf="@id/draw_card4"
+        app:layout_constraintTop_toTopOf="@id/draw_card4" />
+
+    <ToggleButton
+        android:id="@+id/selector_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/mulligan_toggle"
+        android:backgroundTint="#C3FF3B3B"
+        android:checked="true"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@id/draw_card5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/draw_card5"
+        app:layout_constraintStart_toStartOf="@id/draw_card5"
+        app:layout_constraintTop_toTopOf="@id/draw_card5" />
+
+    <Button
+        android:id="@+id/button_draw_4"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintWidth_percent="0.25"
+        android:onClick="drawFour"
+        android:text="@string/draw_4"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_draw_5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/draw_card1"
+        app:rippleColor="#33AAAAAA"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="4dp" />
+
+    <Button
+        android:id="@+id/button_draw_5"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:onClick="drawFive"
+        android:text="@string/draw_5"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintWidth_percent="0.25"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_mulligan"
+        app:layout_constraintStart_toEndOf="@+id/button_draw_4"
+        app:layout_constraintTop_toBottomOf="@+id/draw_card1"
+        app:rippleColor="#33AAAAAA"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="4dp" />
+
+    <Button
+        android:id="@+id/button_mulligan"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:onClick="drawMulligan"
+        android:text="@string/re_draw_selected"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintWidth_percent="0.25"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_draw_5"
+        app:layout_constraintTop_toBottomOf="@+id/draw_card1"
+        app:rippleColor="#33AAAAAA"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="4dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

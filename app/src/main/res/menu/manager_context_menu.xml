@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_view_context"
+        android:title="@string/view_deck_context" />
+
+    <item
+        android:id="@+id/action_edit_context"
+        android:title="@string/edit_deck_context" />
+
+    <item
+        android:id="@+id/action_delete_context"
+        android:title="@string/delete_deck_context" />
+
+    <item
+        android:id="@+id/action_description_context"
+        android:title="@string/export_deck_description" />
+
+</menu>

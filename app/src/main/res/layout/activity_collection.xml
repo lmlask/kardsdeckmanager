@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:layout_width="match_parent" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_collection"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#202020"
+        android:elevation="5dp"
+        android:minHeight="?attr/actionBarSize"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/parent_drawer_layout"
+        android:layout_height="match_parent"
+        android:background="#404040"
+        android:layout_width="match_parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            tools:context=".CollectionActivity">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/collection_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:fadeScrollbars="true"
+                android:fadingEdge="horizontal"
+                android:scrollbars="vertical"
+                android:layout_marginBottom="50dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.mopub.mobileads.MoPubView
+                android:id="@+id/adview"
+                android:layout_width='320dp'
+                android:layout_height='50dp'
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:moPubAdSize='match_view' />
+
+            <ProgressBar
+                android:id="@+id/progress_bar_collection"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/collection_recyclerview"
+                app:layout_constraintEnd_toEndOf="@+id/collection_recyclerview"
+                app:layout_constraintStart_toStartOf="@+id/collection_recyclerview"
+                app:layout_constraintTop_toTopOf="@+id/collection_recyclerview" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <RelativeLayout
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/drawer"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:elevation="5dp"
+            android:background="#202020"
+            android:padding="10dp"
+            android:clickable="true"
+            tools:ignore="KeyboardInaccessibleWidget">
+
+
+            <ToggleButton
+                android:id="@+id/filter_usa"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/usa_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterCountry" />
+
+            <ToggleButton
+                android:id="@+id/filter_britain"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/filter_usa"
+                android:background="@drawable/britain_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterCountry" />
+
+            <ToggleButton
+                android:id="@+id/filter_soviet"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/filter_britain"
+                android:background="@drawable/soviet_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterCountry" />
+
+            <ToggleButton
+                android:id="@+id/filter_france"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/filter_soviet"
+                android:background="@drawable/france_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+            android:onClick="filterCountry" />
+
+            <ToggleButton
+                android:id="@+id/filter_germany"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/filter_france"
+                android:background="@drawable/germany_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterCountry" />
+
+            <ToggleButton
+                android:id="@+id/filter_japan"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/filter_germany"
+                android:background="@drawable/japan_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterCountry" />
+
+            <ToggleButton
+                android:id="@+id/filter_italy"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/filter_japan"
+                android:background="@drawable/italy_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterCountry" />
+
+            <ToggleButton
+                android:id="@+id/filter_infantry"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_usa"
+                android:background="@drawable/infantry_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterType" />
+
+            <ToggleButton
+                android:id="@+id/filter_tank"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_usa"
+                android:layout_below="@id/filter_infantry"
+                android:background="@drawable/tank_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterType" />
+
+            <ToggleButton
+                android:id="@+id/filter_artillery"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_usa"
+                android:layout_below="@id/filter_tank"
+                android:background="@drawable/artillery_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterType" />
+
+            <ToggleButton
+                android:id="@+id/filter_fighter"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_usa"
+                android:layout_below="@id/filter_artillery"
+                android:background="@drawable/fighter_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterType" />
+
+            <ToggleButton
+                android:id="@+id/filter_bomber"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_usa"
+                android:layout_below="@id/filter_fighter"
+                android:background="@drawable/bomber_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterType" />
+
+            <ToggleButton
+                android:id="@+id/filter_order"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_usa"
+                android:layout_below="@id/filter_bomber"
+                android:background="@drawable/order_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterType" />
+
+            <ToggleButton
+                android:id="@+id/filter_cm"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_usa"
+                android:layout_below="@id/filter_order"
+                android:background="@drawable/cm_toggle_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="filterType" />
+
+            <ToggleButton
+                android:id="@+id/filter_k1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_infantry"
+                android:background="@drawable/k1_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:onClick="filterKredits" />
+
+            <ToggleButton
+                android:id="@+id/filter_k2"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_infantry"
+                android:layout_below="@id/filter_k1"
+                android:background="@drawable/k2_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:onClick="filterKredits" />
+
+            <ToggleButton
+                android:id="@+id/filter_k3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_infantry"
+                android:layout_below="@id/filter_k2"
+                android:background="@drawable/k3_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:onClick="filterKredits" />
+
+            <ToggleButton
+                android:id="@+id/filter_k4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_infantry"
+                android:layout_below="@id/filter_k3"
+                android:background="@drawable/k4_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:onClick="filterKredits" />
+
+            <ToggleButton
+                android:id="@+id/filter_k5"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_infantry"
+                android:layout_below="@id/filter_k4"
+                android:background="@drawable/k5_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:onClick="filterKredits" />
+
+            <ToggleButton
+                android:id="@+id/filter_k6"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_infantry"
+                android:layout_below="@id/filter_k5"
+                android:background="@drawable/k6_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:onClick="filterKredits" />
+
+            <ToggleButton
+                android:id="@+id/filter_k7"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@id/filter_infantry"
+                android:layout_below="@id/filter_k6"
+                android:background="@drawable/k7_button_layout"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:onClick="filterKredits" />
+
+        </RelativeLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</RelativeLayout>

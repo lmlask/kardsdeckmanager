@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/deck_parent_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="5dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#00000000"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintDimensionRatio="5:7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/deck_back_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/germany_back"
+                tools:ignore="ContentDescription" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.16" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.25" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.13" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.87" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/deck_name"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:autoSizeMaxTextSize="100sp"
+                app:autoSizeMinTextSize="5sp"
+                app:autoSizeStepGranularity="1sp"
+                app:autoSizeTextType="uniform"
+                android:fontFamily="@font/pt_sans_narrow_bold"
+                android:text="Germany Aggressive"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#DFD2A6"
+                app:layout_constraintBottom_toTopOf="@id/guide2"
+                app:layout_constraintEnd_toEndOf="@+id/guide4"
+                app:layout_constraintStart_toStartOf="@id/guide3"
+                app:layout_constraintTop_toBottomOf="@id/guide1" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.783" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.87" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.53" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.65" />
+
+            <ImageView
+                android:id="@+id/ally_image"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/japan_unselected"
+                app:layout_constraintBottom_toBottomOf="@id/guide6"
+                app:layout_constraintEnd_toEndOf="@id/guide8"
+                app:layout_constraintStart_toStartOf="@id/guide7"
+                app:layout_constraintTop_toTopOf="@id/guide5"
+                tools:ignore="ContentDescription"
+                app:tint="#CECBAA" />
+
+            <ImageView
+                android:id="@+id/invalid_bg"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="#aa000000"
+                app:layout_constraintHeight_percent="0.45"
+                tools:ignore="ContentDescription" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/invalid_title"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="@string/invalid_deck"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:autoSizeStepGranularity="2dp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="@+id/deck_back_image"
+                app:layout_constraintEnd_toStartOf="@+id/guide4"
+                app:layout_constraintHeight_percent="0.3"
+                app:layout_constraintStart_toStartOf="@+id/guide3"
+                app:layout_constraintTop_toTopOf="@+id/invalid_bg" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

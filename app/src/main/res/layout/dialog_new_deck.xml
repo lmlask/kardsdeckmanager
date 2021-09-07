@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AlertDialogTheme">
+
+    <EditText
+        android:id="@+id/edit_title_new"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="top"
+        android:hint="@string/enter_deck_name"
+        android:inputType="textCapWords"
+        android:lines="1"
+        android:maxLength="18"
+        android:maxLines="1"
+        android:minLines="1"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/main_nation_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/main_nation"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_title_new"
+        tools:ignore="SpUsage" />
+
+    <ToggleButton
+        android:id="@+id/nation_usa"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/usa_toggle_button_layout"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toStartOf="@+id/nation_britain"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_nation_textview" />
+
+    <ToggleButton
+        android:id="@+id/nation_britain"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/britain_toggle_button_layout"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toStartOf="@+id/nation_soviet"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nation_usa"
+        app:layout_constraintTop_toBottomOf="@+id/main_nation_textview" />
+
+    <ToggleButton
+        android:id="@+id/nation_soviet"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/soviet_toggle_button_layout"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toStartOf="@+id/nation_germany"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nation_britain"
+        app:layout_constraintTop_toBottomOf="@+id/main_nation_textview" />
+
+    <ToggleButton
+        android:id="@+id/nation_germany"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/germany_toggle_button_layout"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toStartOf="@+id/nation_japan"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nation_soviet"
+        app:layout_constraintTop_toBottomOf="@+id/main_nation_textview" />
+
+    <ToggleButton
+        android:id="@+id/nation_japan"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/japan_toggle_button_layout"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nation_germany"
+        app:layout_constraintTop_toBottomOf="@+id/main_nation_textview" />
+
+    <TextView
+        android:id="@+id/ally_nation_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/ally_nation"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nation_soviet"
+        tools:ignore="SpUsage" />
+
+    <ToggleButton
+        android:id="@+id/ally_usa"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/usa_toggle_button_layout"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toStartOf="@+id/ally_britain"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ally_nation_textview" />
+
+    <ToggleButton
+        android:id="@+id/ally_britain"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/britain_toggle_button_layout"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toStartOf="@+id/ally_soviet"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ally_usa"
+        app:layout_constraintTop_toBottomOf="@+id/ally_nation_textview" />
+
+    <ToggleButton
+        android:id="@+id/ally_soviet"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/soviet_toggle_button_layout"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toStartOf="@+id/ally_germany"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ally_britain"
+        app:layout_constraintTop_toBottomOf="@+id/ally_nation_textview" />
+
+    <ToggleButton
+        android:id="@+id/ally_germany"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/germany_toggle_button_layout"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ally_japan"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ally_soviet"
+        app:layout_constraintTop_toBottomOf="@+id/ally_nation_textview" />
+
+    <ToggleButton
+        android:id="@+id/ally_japan"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/japan_toggle_button_layout"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toStartOf="@id/ally_france"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ally_germany"
+        app:layout_constraintTop_toBottomOf="@+id/ally_nation_textview" />
+
+    <ToggleButton
+        android:id="@+id/ally_france"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/france_toggle_button_layout"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toStartOf="@id/ally_italy"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ally_japan"
+        app:layout_constraintTop_toBottomOf="@+id/ally_nation_textview" />
+
+    <ToggleButton
+        android:id="@+id/ally_italy"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/italy_toggle_button_layout"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ally_france"
+        app:layout_constraintTop_toBottomOf="@+id/ally_nation_textview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
