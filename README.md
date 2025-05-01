@@ -1,21 +1,25 @@
 # KARDS Deck Manager
 
-App developed in Java as a final project for Harvard's CS50 MOOC general programming course.
+Android app developed in Java as a final project for Harvard's CS50 MOOC general programming course.
 
 Allows the user to build and compare card decks for the KARDS digital card game, as well as simulate initial game draws and mulligans and several other analysis tools for built decks.
 
 Previously released on the Play Store. No longer updated.
 
-![1](https://github.com/user-attachments/assets/2deb72cd-2b42-4cb4-b01d-8e2070bc291e)
-![1 5](https://github.com/user-attachments/assets/aa5d18a4-4b62-4e16-8b8d-a9827dba0922)
-![2](https://github.com/user-attachments/assets/c364134d-225f-4619-b3a1-030fe291dbc0)
-![3](https://github.com/user-attachments/assets/01716d14-383c-475f-bcd7-92ab27acfbb7)
-![4](https://github.com/user-attachments/assets/295101d3-e461-4ce0-8e52-3f84b77dd8ab)
-![5](https://github.com/user-attachments/assets/0f14482b-0134-4e00-ba6e-97634a8058d9)
-![6](https://github.com/user-attachments/assets/fc65c6d6-8b51-4997-92da-979424d0c32f)
-![7](https://github.com/user-attachments/assets/c57ce15e-d6e0-4808-b9d6-4ad78f2ef97c)
-![8](https://github.com/user-attachments/assets/ae367020-5a84-4300-aba6-335c3f745d99)
-
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/2deb72cd-2b42-4cb4-b01d-8e2070bc291e" width="32%" />
+  <img src="https://github.com/user-attachments/assets/aa5d18a4-4b62-4e16-8b8d-a9827dba0922" width="32%" /> 
+  <img src="https://github.com/user-attachments/assets/c364134d-225f-4619-b3a1-030fe291dbc0" width="32%" />
+</p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/01716d14-383c-475f-bcd7-92ab27acfbb7" width="32%" />
+  <img src="https://github.com/user-attachments/assets/295101d3-e461-4ce0-8e52-3f84b77dd8ab" width="32%" /> 
+  <img src="https://github.com/user-attachments/assets/0f14482b-0134-4e00-ba6e-97634a8058d9" width="32%" />
+</p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/fc65c6d6-8b51-4997-92da-979424d0c32f" width="49%" />
+  <img src="https://github.com/user-attachments/assets/c57ce15e-d6e0-4808-b9d6-4ad78f2ef97c" width="49%" /> 
+</p>
 
 # License
 
