@@ -6,10 +6,16 @@ Allows the user to build and compare card decks for the KARDS digital card game,
 
 Previously released on the Play Store. No longer updated.
 
-![unnamed](https://github.com/user-attachments/assets/ba9d1449-265c-4893-916e-5c0efb870909)
-![unnamed (1)](https://github.com/user-attachments/assets/fb2bf957-b4ba-40c1-9944-5f15f8a00826)
-![unnamed (2)](https://github.com/user-attachments/assets/fc49e11f-336b-4733-874a-f7529af6d603)
-![unnamed (3)](https://github.com/user-attachments/assets/fb2e9150-7cb0-4294-b355-cd9f02072899)
+![1](https://github.com/user-attachments/assets/2deb72cd-2b42-4cb4-b01d-8e2070bc291e)
+![1 5](https://github.com/user-attachments/assets/aa5d18a4-4b62-4e16-8b8d-a9827dba0922)
+![2](https://github.com/user-attachments/assets/c364134d-225f-4619-b3a1-030fe291dbc0)
+![3](https://github.com/user-attachments/assets/01716d14-383c-475f-bcd7-92ab27acfbb7)
+![4](https://github.com/user-attachments/assets/295101d3-e461-4ce0-8e52-3f84b77dd8ab)
+![5](https://github.com/user-attachments/assets/0f14482b-0134-4e00-ba6e-97634a8058d9)
+![6](https://github.com/user-attachments/assets/fc65c6d6-8b51-4997-92da-979424d0c32f)
+![7](https://github.com/user-attachments/assets/c57ce15e-d6e0-4808-b9d6-4ad78f2ef97c)
+![8](https://github.com/user-attachments/assets/ae367020-5a84-4300-aba6-335c3f745d99)
+
 
 # License
 
